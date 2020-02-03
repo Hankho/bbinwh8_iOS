@@ -1,0 +1,43 @@
+/* 
+  Localizable.strings
+  wh8app
+
+  Created by Hankho on 2019/10/4.
+  Copyright © 2019 Gary Lin. All rights reserved.
+*/
+
+"verify.enable.login.security" = "Please verify your identity before you can enable auto-login with the device security lock.";
+"verify.disable.login.security" = "Please verify your identity before you can disable the device security lock.";
+"update" = "Update";
+"update.restart" = "Please update and restart your APP.";
+"update.new.version" = "Latest version has been released.";
+"verify.autologin" = "Please verify your identity before you enable auto-login.";
+"select.account" = "Please select an account";
+"face" = "face";
+"fingerprint" = "fingerprint";
+"handle.error.fail1" = "Due to excessive authentication failure";
+"handle.error.fail2" = " has been locked, please enter password.";
+"handle.error.enable1" = "Please enter Setting and enable";
+"handle.error.enable2" = " to use";
+"handle.error.enable3" = " to verify your identity";
+"handle.error.enroll1" = "Have not registered";
+"handle.error.enroll2" = "Please enter Setting and enroll your";
+"handle.error.authenticate1" = "Can not identify your";
+"handle.error.authenticate2" = "Please use authenticated";
+"handle.error.authenticate3" = " and try again.";
+"handle.error.password1" = "Please setup your password to use";
+"handle.error.password2" = " to verify your identity.";
+"show.cancel.confirm" = "If you cancel that, you would have to log in manually from the homepage.";
+"biomatric.fail.retry" = "Sign up and retry";
+"handle.urlscheme" = "Cannot open the link.\nPlease make sure you have downloaded the APP.";
+"bound.account" = "bound your account";
+"current.user" = "current login account";
+"delete.binding.user" = "Would you like to delete this binding account？";
+"account" = "account";
+"set" = "Set";
+"retry" = "Retry";
+"exit" = "Exit";
+"confirm" = "OK";
+"cancel" = "Cancel";
+"setting.login.security" = "Log in with your device security lock.";
+"setting.login.footer" = "Once you have enabled your device security lock. It will be safer and more efficient every time you open the APP and quick login by using device security lock!";

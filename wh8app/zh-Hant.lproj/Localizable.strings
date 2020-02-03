@@ -1,0 +1,43 @@
+/* 
+  Localizable.strings
+  wh8app
+
+  Created by Hankho on 2019/10/4.
+  Copyright © 2019 Gary Lin. All rights reserved.
+*/
+
+"verify.enable.login.security" = "请先验证身份后方能开启装置安全锁自动登入功能";
+"verify.disable.login.security" = "请先验证身份后方能关闭装置安全锁";
+"update" = "前往更新";
+"update.restart" = "请更新您的APP并重新启动";
+"update.new.version" = "发现新版本";
+"verify.autologin" = "请验证身份后方能自动登入";
+"select.account" = "选择登入帐号";
+"face" = "面孔";
+"fingerprint" = "指纹";
+"handle.error.fail1" = "因为验证失败太多次，";
+"handle.error.fail2" = "现在被锁定，请输入装置密码来解锁。";
+"handle.error.enable1" = "请从设置中开启";
+"handle.error.enable2" = "选项，以使用";
+"handle.error.enable3" = "进行身份验证。";
+"handle.error.enroll1" = "设备中尚未注册";
+"handle.error.enroll2" = "，请至设置注册您的";
+"handle.error.authenticate1" = "无法识别您的";
+"handle.error.authenticate2" = "，请使用您已注册的";
+"handle.error.authenticate3" = "再试一次。";
+"handle.error.password1" = "请设置设备密码以使用";
+"handle.error.password2" = "进行身份验证。";
+"show.cancel.confirm" = "取消后必须由首页手动登入";
+"biomatric.fail.retry" = "完成注册后请重新尝试";
+"handle.urlscheme" = "无法开启连结，\n请确认已下载该APP。";
+"bound.account" = "绑定帐号";
+"current.user" = "当前登入帐号";
+"delete.binding.user" = "是否删除该账号绑定？";
+"account" = "帐号";
+"set" = "设置";
+"retry" = "重试";
+"exit" = "离开";
+"confirm" = "确认";
+"cancel" = "取消";
+"setting.login.security" = "当前帐号使用装置安全锁登入";
+"setting.login.footer" = "当您的帐号启用装置安全锁后，每次开启应用程式皆可以使用装置安全锁快速登入，安全又有效率！";

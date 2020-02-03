@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "Header Footer"; ObjectID = "0AQ-8F-uQ8"; */
+"0AQ-8F-uQ8.text" = "Header Footer";
+
+/* Class = "UILabel"; text = "尚未登入"; ObjectID = "2xQ-Lh-KsJ"; */
+"2xQ-Lh-KsJ.text" = "No Login";
+
+/* Class = "UILabel"; text = "value"; ObjectID = "Exd-IJ-Daa"; */
+"Exd-IJ-Daa.text" = "value";
+
+/* Class = "UILabel"; text = "请在登入后开启装置安全锁"; ObjectID = "UL7-8D-sni"; */
+"UL7-8D-sni.text" = "Please enable your device security\nlock after you log in.";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "V7k-ca-WbV"; */
+"V7k-ca-WbV.text" = "Title";
+
+/* Class = "UINavigationItem"; title = "设定"; ObjectID = "ZXV-xH-pWp"; */
+"ZXV-xH-pWp.title" = "Setting";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "iKk-c3-MRi"; */
+"iKk-c3-MRi.text" = "Title";
+
+/* Class = "UILabel"; text = "请您返回首页进行登入后，再行启用装置安全锁。"; ObjectID = "uGU-8B-xEr"; */
+"uGU-8B-xEr.text" = "Please return to the homepage and log in so that you can enable the device security lock.";

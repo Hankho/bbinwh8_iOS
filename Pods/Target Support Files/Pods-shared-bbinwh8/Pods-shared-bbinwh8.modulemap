@@ -1,0 +1,6 @@
+framework module Pods_shared_bbinwh8 {
+  umbrella header "Pods-shared-bbinwh8-umbrella.h"
+
+  export *
+  module * { export * }
+}
