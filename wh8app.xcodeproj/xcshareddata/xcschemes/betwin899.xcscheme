@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "18907C442397813B00797DD2"
-               BuildableName = "betwin899.app"
+               BuildableName = "&#x7a33;&#x76c8;&#x5a31;&#x4e50;&#x57ce;.app"
                BlueprintName = "betwin899"
                ReferencedContainer = "container:wh8app.xcodeproj">
             </BuildableReference>
@@ -27,19 +27,17 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
-      <Testables>
-      </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "18907C442397813B00797DD2"
-            BuildableName = "betwin899.app"
+            BuildableName = "&#x7a33;&#x76c8;&#x5a31;&#x4e50;&#x57ce;.app"
             BlueprintName = "betwin899"
             ReferencedContainer = "container:wh8app.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
+      <Testables>
+      </Testables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -56,13 +54,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "18907C442397813B00797DD2"
-            BuildableName = "betwin899.app"
+            BuildableName = "&#x7a33;&#x76c8;&#x5a31;&#x4e50;&#x57ce;.app"
             BlueprintName = "betwin899"
             ReferencedContainer = "container:wh8app.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -75,7 +71,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "18907C442397813B00797DD2"
-            BuildableName = "betwin899.app"
+            BuildableName = "&#x7a33;&#x76c8;&#x5a31;&#x4e50;&#x57ce;.app"
             BlueprintName = "betwin899"
             ReferencedContainer = "container:wh8app.xcodeproj">
          </BuildableReference>
