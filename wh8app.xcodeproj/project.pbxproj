@@ -465,6 +465,37 @@
 		ADF466D422DED3180080106D /* SessionStatusResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466D322DED3180080106D /* SessionStatusResponse.swift */; };
 		ADF466D622DED3590080106D /* UserTicketResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466D522DED3590080106D /* UserTicketResponse.swift */; };
 		E94F4BCD990D3AB221C3E0E6 /* Pods_shared_tiansheng.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E0FC31C041B7F3A34711C21 /* Pods_shared_tiansheng.framework */; };
+		F8C487B923F646D6002C0846 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCB259C22E07CA700AB6C30 /* String+Extension.swift */; };
+		F8C487BA23F646D6002C0846 /* UserTicketResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466D522DED3590080106D /* UserTicketResponse.swift */; };
+		F8C487BB23F646D6002C0846 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD272D3D22EAF40400F806EF /* UIView+Extension.swift */; };
+		F8C487BC23F646D6002C0846 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB546652305123C000B837B /* CustomView.swift */; };
+		F8C487BD23F646D6002C0846 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466CE22DDD3E40080106D /* AppViewModel.swift */; };
+		F8C487BE23F646D6002C0846 /* SessionStatusResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466D322DED3180080106D /* SessionStatusResponse.swift */; };
+		F8C487BF23F646D6002C0846 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD626C0022DC4B060024510D /* AppDelegate.swift */; };
+		F8C487C023F646D6002C0846 /* SharedWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD626C0222DC4B060024510D /* SharedWebViewController.swift */; };
+		F8C487C123F646D6002C0846 /* Dictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9E69E022F8073300F8C001 /* Dictionary+Extension.swift */; };
+		F8C487C223F646D6002C0846 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD626C0422DC4B060024510D /* SettingsViewController.swift */; };
+		F8C487C323F646D6002C0846 /* SiteInfoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466C622DC82250080106D /* SiteInfoResponse.swift */; };
+		F8C487C423F646D6002C0846 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD626C1422DC515A0024510D /* MainViewController.swift */; };
+		F8C487C523F646D6002C0846 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466B422DC65AC0080106D /* BaseViewController.swift */; };
+		F8C487C623F646D6002C0846 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466BA22DC68870080106D /* APIManager.swift */; };
+		F8C487C723F646D6002C0846 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD25DE3722F947E3009993A0 /* APIError.swift */; };
+		F8C487C823F646D6002C0846 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466BE22DC6AEA0080106D /* APIService.swift */; };
+		F8C487C923F646D6002C0846 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466BC22DC69060080106D /* Constants.swift */; };
+		F8C487CA23F646D6002C0846 /* BaseVeiwModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466D122DED00F0080106D /* BaseVeiwModel.swift */; };
+		F8C487CB23F646D6002C0846 /* AppRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466C322DC81420080106D /* AppRepository.swift */; };
+		F8C487CC23F646D6002C0846 /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9E69E422F8079D00F8C001 /* Data+Extension.swift */; };
+		F8C487CD23F646D6002C0846 /* AppUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9E69DE22F7EC4C00F8C001 /* AppUtil.swift */; };
+		F8C487CF23F646D6002C0846 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF466CC22DDC5A40080106D /* WebKit.framework */; };
+		F8C487D023F646D6002C0846 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		F8C487D123F646D6002C0846 /* Pods_shared_bbinwh8.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F62975276E4CA2AF894C11F4 /* Pods_shared_bbinwh8.framework */; };
+		F8C487D223F646D6002C0846 /* Pods_shared_bbinwh8.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F62975276E4CA2AF894C11F4 /* Pods_shared_bbinwh8.framework */; };
+		F8C487D423F646D6002C0846 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD626C0B22DC4B080024510D /* LaunchScreen.storyboard */; };
+		F8C487D523F646D6002C0846 /* info-bbinwh8.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E6ED31C22F3CF7600B4FB11 /* info-bbinwh8.plist */; };
+		F8C487D623F646D6002C0846 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18BF344823471BA000564EBF /* Localizable.strings */; };
+		F8C487D723F646D6002C0846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD626C0922DC4B080024510D /* Assets.xcassets */; };
+		F8C487D823F646D6002C0846 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD626C0622DC4B060024510D /* Main.storyboard */; };
+		F8C487E023F647E4002C0846 /* info-nanyang999.plist in Resources */ = {isa = PBXBuildFile; fileRef = F8C487DF23F647E4002C0846 /* info-nanyang999.plist */; };
 		F8C89C8623EAB655007A9DFD /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCB259C22E07CA700AB6C30 /* String+Extension.swift */; };
 		F8C89C8723EAB655007A9DFD /* UserTicketResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466D522DED3590080106D /* UserTicketResponse.swift */; };
 		F8C89C8823EAB655007A9DFD /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD272D3D22EAF40400F806EF /* UIView+Extension.swift */; };
@@ -583,6 +614,8 @@
 		CC256600A60CAC837CF2D4D9 /* Pods_shared_coolbet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shared_coolbet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E630E9DCCC561A6C6BE4F089 /* Pods-shared-base.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-base.release.xcconfig"; path = "Target Support Files/Pods-shared-base/Pods-shared-base.release.xcconfig"; sourceTree = "<group>"; };
 		F62975276E4CA2AF894C11F4 /* Pods_shared_bbinwh8.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shared_bbinwh8.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C487DD23F646D6002C0846 /* 南洋在线.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "南洋在线.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C487DF23F647E4002C0846 /* info-nanyang999.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-nanyang999.plist"; sourceTree = "<group>"; };
 		F8C89CAA23EAB655007A9DFD /* 凯斯娱乐城.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "凯斯娱乐城.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8C89CAC23EAB723007A9DFD /* info-cash888.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-cash888.plist"; sourceTree = "<group>"; };
 		FF83791E837545DD19228682 /* Pods-shared-tiansheng.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-tiansheng.debug.xcconfig"; path = "Target Support Files/Pods-shared-tiansheng/Pods-shared-tiansheng.debug.xcconfig"; sourceTree = "<group>"; };
@@ -727,6 +760,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F8C487CE23F646D6002C0846 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C487CF23F646D6002C0846 /* WebKit.framework in Frameworks */,
+				F8C487D023F646D6002C0846 /* (null) in Frameworks */,
+				F8C487D123F646D6002C0846 /* Pods_shared_bbinwh8.framework in Frameworks */,
+				F8C487D223F646D6002C0846 /* Pods_shared_bbinwh8.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F8C89C9B23EAB655007A9DFD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -788,6 +832,7 @@
 				18907C6A2397813B00797DD2 /* 稳盈娱乐城.app */,
 				5AEBE3E323D02EDD00D4BCFE /* CCK.app */,
 				F8C89CAA23EAB655007A9DFD /* 凯斯娱乐城.app */,
+				F8C487DD23F646D6002C0846 /* 南洋在线.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -823,6 +868,7 @@
 				18907C6C239781A800797DD2 /* info-betwin899.plist */,
 				5AEBE3E523D02F9F00D4BCFE /* info-cckf2020.plist */,
 				F8C89CAC23EAB723007A9DFD /* info-cash888.plist */,
+				F8C487DF23F647E4002C0846 /* info-nanyang999.plist */,
 				18BF344823471BA000564EBF /* Localizable.strings */,
 			);
 			path = wh8app;
@@ -1220,6 +1266,25 @@
 			productReference = AD626BFD22DC4B060024510D /* base.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F8C487B623F646D6002C0846 /* nanyang999 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8C487DA23F646D6002C0846 /* Build configuration list for PBXNativeTarget "nanyang999" */;
+			buildPhases = (
+				F8C487B723F646D6002C0846 /* [CP] Check Pods Manifest.lock */,
+				F8C487B823F646D6002C0846 /* Sources */,
+				F8C487CE23F646D6002C0846 /* Frameworks */,
+				F8C487D323F646D6002C0846 /* Resources */,
+				F8C487D923F646D6002C0846 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nanyang999;
+			productName = "tetrapods-ios";
+			productReference = F8C487DD23F646D6002C0846 /* 南洋在线.app */;
+			productType = "com.apple.product-type.application";
+		};
 		F8C89C8323EAB655007A9DFD /* cash888 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8C89CA723EAB655007A9DFD /* Build configuration list for PBXNativeTarget "cash888" */;
@@ -1286,6 +1351,7 @@
 				18907C442397813B00797DD2 /* betwin899 */,
 				5AEBE3BD23D02EDD00D4BCFE /* cckf2020 */,
 				F8C89C8323EAB655007A9DFD /* cash888 */,
+				F8C487B623F646D6002C0846 /* nanyang999 */,
 			);
 		};
 /* End PBXProject section */
@@ -1496,6 +1562,19 @@
 				AD626C0A22DC4B080024510D /* Assets.xcassets in Resources */,
 				AD626C0822DC4B060024510D /* Main.storyboard in Resources */,
 				18BF344E23488AFF00564EBF /* info-base.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C487D323F646D6002C0846 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C487D423F646D6002C0846 /* LaunchScreen.storyboard in Resources */,
+				F8C487D523F646D6002C0846 /* info-bbinwh8.plist in Resources */,
+				F8C487D623F646D6002C0846 /* Localizable.strings in Resources */,
+				F8C487D723F646D6002C0846 /* Assets.xcassets in Resources */,
+				F8C487D823F646D6002C0846 /* Main.storyboard in Resources */,
+				F8C487E023F647E4002C0846 /* info-nanyang999.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1786,6 +1865,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8C487B723F646D6002C0846 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-shared-bbinwh8-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8C487D923F646D6002C0846 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-shared-bbinwh8/Pods-shared-bbinwh8-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-shared-bbinwh8/Pods-shared-bbinwh8-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-shared-bbinwh8/Pods-shared-bbinwh8-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F8C89C8423EAB655007A9DFD /* [CP] Check Pods Manifest.lock */ = {
@@ -2275,6 +2393,34 @@
 				ADF466BD22DC69060080106D /* Constants.swift in Sources */,
 				ADF466D222DED00F0080106D /* BaseVeiwModel.swift in Sources */,
 				ADF466C422DC81420080106D /* AppRepository.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C487B823F646D6002C0846 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C487B923F646D6002C0846 /* String+Extension.swift in Sources */,
+				F8C487BA23F646D6002C0846 /* UserTicketResponse.swift in Sources */,
+				F8C487BB23F646D6002C0846 /* UIView+Extension.swift in Sources */,
+				F8C487BC23F646D6002C0846 /* CustomView.swift in Sources */,
+				F8C487BD23F646D6002C0846 /* AppViewModel.swift in Sources */,
+				F8C487BE23F646D6002C0846 /* SessionStatusResponse.swift in Sources */,
+				F8C487BF23F646D6002C0846 /* AppDelegate.swift in Sources */,
+				F8C487C023F646D6002C0846 /* SharedWebViewController.swift in Sources */,
+				F8C487C123F646D6002C0846 /* Dictionary+Extension.swift in Sources */,
+				F8C487C223F646D6002C0846 /* SettingsViewController.swift in Sources */,
+				F8C487C323F646D6002C0846 /* SiteInfoResponse.swift in Sources */,
+				F8C487C423F646D6002C0846 /* MainViewController.swift in Sources */,
+				F8C487C523F646D6002C0846 /* BaseViewController.swift in Sources */,
+				F8C487C623F646D6002C0846 /* APIManager.swift in Sources */,
+				F8C487C723F646D6002C0846 /* APIError.swift in Sources */,
+				F8C487C823F646D6002C0846 /* APIService.swift in Sources */,
+				F8C487C923F646D6002C0846 /* Constants.swift in Sources */,
+				F8C487CA23F646D6002C0846 /* BaseVeiwModel.swift in Sources */,
+				F8C487CB23F646D6002C0846 /* AppRepository.swift in Sources */,
+				F8C487CC23F646D6002C0846 /* Data+Extension.swift in Sources */,
+				F8C487CD23F646D6002C0846 /* AppUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3127,6 +3273,48 @@
 			};
 			name = Release;
 		};
+		F8C487DB23F646D6002C0846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8AA649E0EB5B5A76A139AC0 /* Pods-shared-bbinwh8.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = nanyang999;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CV66AP2S44;
+				INFOPLIST_FILE = "$(SRCROOT)/wh8app/info-nanyang999.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PROD";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanyang999.app;
+				PRODUCT_NAME = "南洋在线";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8C487DC23F646D6002C0846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A08FD82D958D9CA99802D9ED /* Pods-shared-bbinwh8.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = nanyang999;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CV66AP2S44;
+				INFOPLIST_FILE = "$(SRCROOT)/wh8app/info-nanyang999.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PROD";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanyang999.app;
+				PRODUCT_NAME = "南洋在线";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		F8C89CA823EAB655007A9DFD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A8AA649E0EB5B5A76A139AC0 /* Pods-shared-bbinwh8.debug.xcconfig */;
@@ -3325,6 +3513,15 @@
 			buildConfigurations = (
 				AD626C1222DC4B080024510D /* Debug */,
 				AD626C1322DC4B080024510D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8C487DA23F646D6002C0846 /* Build configuration list for PBXNativeTarget "nanyang999" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C487DB23F646D6002C0846 /* Debug */,
+				F8C487DC23F646D6002C0846 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
