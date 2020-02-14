@@ -18,7 +18,7 @@ DEPENDENCIES:
   - Moya/RxSwift
   - RxCocoa
   - RxSwift
-  - Sodium
+  - Sodium (~> 0.1)
 
 SPEC REPOS:
   trunk:
@@ -39,6 +39,6 @@ SPEC CHECKSUMS:
   RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
   Sodium: 63c0ca312a932e6da481689537d4b35568841bdc
 
-PODFILE CHECKSUM: 7fc423bb834634706add9ae552fbbc2ff50c07ff
+PODFILE CHECKSUM: 63663cd1802812ba228fe3e66fa33e252dae5331
 
 COCOAPODS: 1.8.4

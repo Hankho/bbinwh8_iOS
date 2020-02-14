@@ -14,7 +14,7 @@ abstract_target 'shared' do
   pod 'Moya/RxSwift'
   
   # Encryption
-  pod 'Sodium'
+  pod 'Sodium', '~> 0.1'
   
   # Security - Keychain
   pod 'KeychainAccess'
@@ -39,4 +39,8 @@ abstract_target 'shared' do
   
   target 'dafa211' do
   end
+
+  target 'nanyang999' do
+  end
+
 end
