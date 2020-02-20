@@ -38,7 +38,7 @@ class SharedWebViewController: BaseViewController {
     let onLoadingNavigationUrl = PublishRelay<String?>()
     
     // Constants
-    private let allowedSchemes = ["ds41cm", "itms-services", "line", "itms-apps"]
+    private let allowedSchemes = ["ds41cm", "itms-services", "line", "itms-apps", "weixin", "alipays"]
     // Intend to deal with landscape problem for these domains
     private let exceptionDomains = ["static-as-edged.hep200512.com"]
     // Variables

@@ -40,6 +40,9 @@ abstract_target 'shared' do
   target 'dafa211' do
   end
 
+  target 'jb3579' do
+  end
+  
   target 'nanyang999' do
   end
 
