@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hb9-T7-RAf">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2wu-wH-8Lf">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -144,14 +144,14 @@
                                 </constraints>
                             </view>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rgu-pk-jsY" userLabel="Bubble View">
-                                <rect key="frame" x="166" y="525" width="192" height="90"/>
+                                <rect key="frame" x="166" y="570" width="192" height="45"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-popover" translatesAutoresizingMaskIntoConstraints="NO" id="CHi-9N-ObD">
-                                        <rect key="frame" x="0.0" y="0.0" width="192" height="90"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="192" height="45"/>
                                         <rect key="contentStretch" x="0.23999999999999999" y="0.5" width="0.0" height="0.0"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请在登入后开启装置安全锁" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UL7-8D-sni">
-                                        <rect key="frame" x="12" y="4" width="168" height="74"/>
+                                        <rect key="frame" x="12" y="4" width="168" height="29"/>
                                         <fontDescription key="fontDescription" name="PingFangTC-Regular" family="PingFang TC" pointSize="14"/>
                                         <color key="textColor" name="textWhite"/>
                                         <nil key="highlightedColor"/>
@@ -244,7 +244,7 @@
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-user" translatesAutoresizingMaskIntoConstraints="NO" id="vJG-Fz-rIl">
-                                            <rect key="frame" x="110.5" y="28" width="154" height="168"/>
+                                            <rect key="frame" x="149" y="70" width="77" height="84"/>
                                         </imageView>
                                     </subviews>
                                     <color key="backgroundColor" name="background"/>
@@ -343,19 +343,19 @@
                                 </connections>
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fyt-0g-G1T" userLabel="Require Login View">
-                                <rect key="frame" x="67.5" y="131" width="240" height="271.5"/>
+                                <rect key="frame" x="67.5" y="168.5" width="240" height="196.5"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-home" translatesAutoresizingMaskIntoConstraints="NO" id="E7W-j0-9NE">
-                                        <rect key="frame" x="44" y="0.0" width="152" height="150"/>
+                                        <rect key="frame" x="82" y="0.0" width="76" height="75"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="尚未登入" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2xQ-Lh-KsJ">
-                                        <rect key="frame" x="0.0" y="174" width="240" height="36.5"/>
+                                        <rect key="frame" x="0.0" y="99" width="240" height="36.5"/>
                                         <fontDescription key="fontDescription" name="PingFangTC-Regular" family="PingFang TC" pointSize="26"/>
                                         <color key="textColor" name="textDisabled"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请您返回首页进行登入后，再行启用装置安全锁。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uGU-8B-xEr">
-                                        <rect key="frame" x="0.0" y="226.5" width="240" height="45"/>
+                                        <rect key="frame" x="0.0" y="151.5" width="240" height="45"/>
                                         <fontDescription key="fontDescription" name="PingFangTC-Regular" family="PingFang TC" pointSize="16"/>
                                         <color key="textColor" name="textDisabled"/>
                                         <nil key="highlightedColor"/>
@@ -396,6 +396,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1486.9565217391305" y="-17.410714285714285"/>
+        </scene>
+        <!--Launch View Controller-->
+        <scene sceneID="hwo-eU-lTE">
+            <objects>
+                <viewController storyboardIdentifier="Launch" useStoryboardIdentifierAsRestorationIdentifier="YES" id="2wu-wH-8Lf" customClass="LaunchViewController" customModule="CCK" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5Gk-Ec-CSj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="MCF-P2-RfD"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y6y-1r-cSV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1169" y="-18"/>
         </scene>
     </scenes>
     <resources>
