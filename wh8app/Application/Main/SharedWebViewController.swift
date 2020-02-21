@@ -191,6 +191,12 @@ extension SharedWebViewController: WKNavigationDelegate {
         
         // Stop loading indicator on finished loading
         onIndicatorStateChanged.accept(false)
+        
+        // Check if Webview is first time loading or not
+        if (Loadwebiew.shared.isFirstTimeLoad == true){
+            ListeningWebViewSetting.shared.launchimg.removeFromSuperview()
+            Loadwebiew.shared.isFirstTimeLoad = false
+        }
     }
     
     func webView(_ webView: WKWebView, didFail navigation: WKNavigation!, withError error: Error) {
