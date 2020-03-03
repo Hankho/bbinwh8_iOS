@@ -9,43 +9,6 @@
 import UIKit
 import LocalAuthentication
 
-    // LaunchImage for listening api calling...
-class ListeningApiSetting {
-    static let shared = ListeningApiSetting()
-    var launchimg: UIImageView = {
-        ImageSetting(img: "startimg_\(AppUtil.targetId).png")
-    }()
-    private init() {}
-}
-
-    // BlockImage for listening Webview loading...
-class ListeningWebViewSetting {
-    static let shared = ListeningWebViewSetting()
-    var launchimg: UIImageView = {
-        ImageSetting(img: "startimg_second.png")
-        }()
-        private init() {}
-    }
-
-    // Setting ＢlockImage
-    private func ImageSetting(img:String) -> UIImageView {
-        let image = UIImage(named: img)
-        let imageView = UIImageView(image: image!)
-        let screenSize: CGRect = UIScreen.main.bounds
-        let screenWidth = screenSize.width
-        let screenHeight = screenSize.height
-        imageView.frame = CGRect(x: 0, y: 0, width: screenWidth, height: screenHeight)
-        imageView.autoresizingMask =  [.flexibleWidth, .flexibleHeight]
-        return imageView
-    }
-
-    // Check if Webview is first time loading or not
-class Loadwebiew {
-    static let shared = Loadwebiew()
-    var isFirstTimeLoad = true
-    private init() {}
-}
-
 class MainViewController: BaseViewController {
     
     // Views
@@ -95,8 +58,6 @@ class MainViewController: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.addSubview(ListeningWebViewSetting.shared.launchimg)
-        self.view.addSubview(ListeningApiSetting.shared.launchimg)
         initialisation()
         observeAndSubscribe()
         requestSiteInfo() // S1
@@ -127,7 +88,6 @@ class MainViewController: BaseViewController {
                     self?.goHomePage(urlString: siteInfo.homeAddress) // F2
                     self?.checkLocalAccounts() // F5
                 }
-                ListeningApiSetting.shared.launchimg.removeFromSuperview()
             }
             
             // Stop loading indicator

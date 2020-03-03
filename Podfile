@@ -46,4 +46,6 @@ abstract_target 'shared' do
   target 'nanyang999' do
   end
 
+  target 'x9977' do
+  end
 end
