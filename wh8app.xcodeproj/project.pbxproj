@@ -27,7 +27,7 @@
 		0EE362B822F4276700BD60DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD626C0B22DC4B080024510D /* LaunchScreen.storyboard */; };
 		0EE362B922F4276700BD60DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD626C0922DC4B080024510D /* Assets.xcassets */; };
 		0EE362BA22F4276700BD60DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD626C0622DC4B060024510D /* Main.storyboard */; };
-		0F1BA8DC27AE1B9D02D7B2A3 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		0F1BA8DC27AE1B9D02D7B2A3 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		108400B8522EEA9D47736C66 /* Pods_shared_base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A866943484AC5DB45A17EF3 /* Pods_shared_base.framework */; };
 		18053AB6237525DD00BC689F /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCB259C22E07CA700AB6C30 /* String+Extension.swift */; };
 		18053AB7237525DD00BC689F /* UserTicketResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466D522DED3590080106D /* UserTicketResponse.swift */; };
@@ -375,7 +375,7 @@
 		18BF345023488B0600564EBF /* info-bbinwh8.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E6ED31C22F3CF7600B4FB11 /* info-bbinwh8.plist */; };
 		1A8E387C70E53F64DA7D1E9F /* Pods_shared_lt888.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 289D1D80EB3CF07C5EC8C27F /* Pods_shared_lt888.framework */; };
 		2BF3BBECA983ED922A622285 /* Pods_shared_x9977.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C464553596B865C8CDC4D29 /* Pods_shared_x9977.framework */; };
-		37F6BAE1E2D3F5AD0063B94C /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		37F6BAE1E2D3F5AD0063B94C /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		3AC318C7DEF8281AC5F961E2 /* Pods_shared_dafa211.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9281A2665F75D91F2AB0D422 /* Pods_shared_dafa211.framework */; };
 		3C6F29EB25FCB976DE4E3696 /* Pods_shared_coolbet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC256600A60CAC837CF2D4D9 /* Pods_shared_coolbet.framework */; };
 		454014276B8785E426BED592 /* Pods_shared_jb3579.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A7E368148A313A9CCBB8CD /* Pods_shared_jb3579.framework */; };
@@ -408,11 +408,11 @@
 		5AEBE3DE23D02EDD00D4BCFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD626C0622DC4B060024510D /* Main.storyboard */; };
 		5AEBE3E623D02F9F00D4BCFE /* info-cckf2020.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5AEBE3E523D02F9F00D4BCFE /* info-cckf2020.plist */; };
 		5AEBE3E723D02F9F00D4BCFE /* info-cckf2020.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5AEBE3E523D02F9F00D4BCFE /* info-cckf2020.plist */; };
-		79617972669424ECD1CF1B31 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
-		7C5F383E7FC15F04C3E93268 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		79617972669424ECD1CF1B31 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		7C5F383E7FC15F04C3E93268 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		8ECB51BC6BE9C27ABA3FE14E /* Pods_shared_nanyang999.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31378379B99D535CC1052071 /* Pods_shared_nanyang999.framework */; };
 		92B027389D30D21E3C926AB4 /* Pods_shared_rbet999.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD42BCE9D70060535464237 /* Pods_shared_rbet999.framework */; };
-		9FA94C7446A78E672C5F2FE2 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		9FA94C7446A78E672C5F2FE2 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		AD11AD0422F40679000E4AD2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD626C0422DC4B060024510D /* SettingsViewController.swift */; };
 		AD11AD0522F40680000E4AD2 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCB259C22E07CA700AB6C30 /* String+Extension.swift */; };
 		AD25DE3822F947E3009993A0 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD25DE3722F947E3009993A0 /* APIError.swift */; };
@@ -544,7 +544,7 @@
 		F8C89CA423EAB655007A9DFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD626C0922DC4B080024510D /* Assets.xcassets */; };
 		F8C89CA523EAB655007A9DFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD626C0622DC4B060024510D /* Main.storyboard */; };
 		F8C89CAD23EAB724007A9DFD /* info-cash888.plist in Resources */ = {isa = PBXBuildFile; fileRef = F8C89CAC23EAB723007A9DFD /* info-cash888.plist */; };
-		FE2CC89BA56A2A1EB7214842 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		FE2CC89BA56A2A1EB7214842 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -564,7 +564,7 @@
 		187C9D61233B405100030CED /* tiansheng.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tiansheng.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18907BC523867B8E00797DD2 /* xs986.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xs986.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18907BC723867C0600797DD2 /* info-xs986.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-xs986.plist"; sourceTree = "<group>"; };
-		18907BEF238E1F0400797DD2 /* x9977.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = x9977.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18907BEF238E1F0400797DD2 /* 金沙会.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "金沙会.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18907BF1238E20A500797DD2 /* info-x9977.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-x9977.plist"; sourceTree = "<group>"; };
 		18907C1923975A3100797DD2 /* jiuding79.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jiuding79.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18907C1B23975A9200797DD2 /* info-jiuding79.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-jiuding79.plist"; sourceTree = "<group>"; };
@@ -775,10 +775,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD272D2D22E9980800F806EF /* WebKit.framework in Frameworks */,
-				37F6BAE1E2D3F5AD0063B94C /* BuildFile in Frameworks */,
-				9FA94C7446A78E672C5F2FE2 /* BuildFile in Frameworks */,
-				79617972669424ECD1CF1B31 /* BuildFile in Frameworks */,
-				FE2CC89BA56A2A1EB7214842 /* BuildFile in Frameworks */,
+				37F6BAE1E2D3F5AD0063B94C /* (null) in Frameworks */,
+				9FA94C7446A78E672C5F2FE2 /* (null) in Frameworks */,
+				79617972669424ECD1CF1B31 /* (null) in Frameworks */,
+				FE2CC89BA56A2A1EB7214842 /* (null) in Frameworks */,
 				BD4FCEED9915718007CA5EC7 /* Pods_shared_bbinwh8.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -788,8 +788,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADF466CD22DDC5A40080106D /* WebKit.framework in Frameworks */,
-				7C5F383E7FC15F04C3E93268 /* BuildFile in Frameworks */,
-				0F1BA8DC27AE1B9D02D7B2A3 /* BuildFile in Frameworks */,
+				7C5F383E7FC15F04C3E93268 /* (null) in Frameworks */,
+				0F1BA8DC27AE1B9D02D7B2A3 /* (null) in Frameworks */,
 				108400B8522EEA9D47736C66 /* Pods_shared_base.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -856,7 +856,7 @@
 				18053AD9237525DD00BC689F /* vn999.app */,
 				18053B2E237549C100BC689F /* jb3579.app */,
 				18907BC523867B8E00797DD2 /* xs986.app */,
-				18907BEF238E1F0400797DD2 /* x9977.app */,
+				18907BEF238E1F0400797DD2 /* 金沙会.app */,
 				18907C1923975A3100797DD2 /* jiuding79.app */,
 				18907C6A2397813B00797DD2 /* 稳盈娱乐城.app */,
 				5AEBE3E323D02EDD00D4BCFE /* CCK.app */,
@@ -1165,7 +1165,7 @@
 			);
 			name = x9977;
 			productName = "tetrapods-ios";
-			productReference = 18907BEF238E1F0400797DD2 /* x9977.app */;
+			productReference = 18907BEF238E1F0400797DD2 /* 金沙会.app */;
 			productType = "com.apple.product-type.application";
 		};
 		18907BF323975A3100797DD2 /* jiuding79 */ = {
@@ -2601,7 +2601,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.3;
+				MARKETING_VERSION = 0.7;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PROD";
 				PRODUCT_BUNDLE_IDENTIFIER = com.coolbet.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2623,7 +2623,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.3;
+				MARKETING_VERSION = 0.7;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PROD";
 				PRODUCT_BUNDLE_IDENTIFIER = com.coolbet.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2644,6 +2644,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.7;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D DEV";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vn999.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2664,6 +2665,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.7;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D DEV";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vn999.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2729,6 +2731,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.7;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D DEV";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lt888.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2750,6 +2753,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.7;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D DEV";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lt888.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2771,6 +2775,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.7;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D DEV";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rbet999.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2792,6 +2797,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.7;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D DEV";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rbet999.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2813,6 +2819,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.7;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D DEV";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tiansheng.webview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2834,6 +2841,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.7;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D DEV";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tiansheng.webview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2854,6 +2862,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.7;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D DEV";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xs986.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2874,6 +2883,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.7;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D DEV";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xs986.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2895,9 +2905,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.7;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PROD";
-				PRODUCT_BUNDLE_IDENTIFIER = com.x9977.app;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com2.x9977.app;
+				PRODUCT_NAME = "金沙会";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -2916,9 +2927,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.7;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PROD";
-				PRODUCT_BUNDLE_IDENTIFIER = com.x9977.app;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com2.x9977.app;
+				PRODUCT_NAME = "金沙会";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -2936,6 +2948,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.7;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PROD";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiuding79.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2956,6 +2969,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.7;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PROD";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiuding79.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2976,6 +2990,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.7;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PROD";
 				PRODUCT_BUNDLE_IDENTIFIER = com.betwin899.app;
 				PRODUCT_NAME = "稳盈娱乐城";
@@ -2996,6 +3011,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.7;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PROD";
 				PRODUCT_BUNDLE_IDENTIFIER = com.betwin899.app;
 				PRODUCT_NAME = "稳盈娱乐城";
@@ -3018,6 +3034,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.7;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D DEV";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dafa211.app;
 				PRODUCT_NAME = "大发BET";
@@ -3041,6 +3058,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.7;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D DEV";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dafa211.app;
 				PRODUCT_NAME = "大发BET";
@@ -3062,6 +3080,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.7;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D DEV";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rbet999.webview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3082,6 +3101,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.7;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D DEV";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rbet999.webview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3102,6 +3122,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.7;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D DEV";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yh7669.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3122,6 +3143,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.7;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D DEV";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yh7669.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3143,6 +3165,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.7;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PROD";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cckf2020.app;
 				PRODUCT_NAME = CCK;
@@ -3165,6 +3188,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.7;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PROD";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cckf2020.app;
 				PRODUCT_NAME = CCK;
@@ -3187,6 +3211,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.7;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PROD";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bbinwh8.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3208,6 +3233,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.7;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PROD";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bbinwh8.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3391,6 +3417,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.7;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PROD";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nanyang999.app;
 				PRODUCT_NAME = "南洋在线";
@@ -3412,6 +3439,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.7;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PROD";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nanyang999.app;
 				PRODUCT_NAME = "南洋在线";
@@ -3433,7 +3461,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.6;
+				MARKETING_VERSION = 0.7;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PROD";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cash888.app;
 				PRODUCT_NAME = "凯斯娱乐城";
@@ -3455,7 +3483,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.6;
+				MARKETING_VERSION = 0.7;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PROD";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cash888.app;
 				PRODUCT_NAME = "凯斯娱乐城";
