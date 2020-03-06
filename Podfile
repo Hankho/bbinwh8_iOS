@@ -48,4 +48,8 @@ abstract_target 'shared' do
 
   target 'x9977' do
   end
+ 
+  target 'giauco39' do
+  end
+
 end
