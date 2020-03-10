@@ -623,7 +623,7 @@
 		2D3ABF2D4029588C9C48ADC6 /* Pods-shared-tiansheng.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-tiansheng.release.xcconfig"; path = "Target Support Files/Pods-shared-tiansheng/Pods-shared-tiansheng.release.xcconfig"; sourceTree = "<group>"; };
 		31378379B99D535CC1052071 /* Pods_shared_nanyang999.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shared_nanyang999.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38993FE21C108110C9EF29D1 /* Pods-shared-nanyang999.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-nanyang999.release.xcconfig"; path = "Target Support Files/Pods-shared-nanyang999/Pods-shared-nanyang999.release.xcconfig"; sourceTree = "<group>"; };
-		5A2CB47A241238260054399D /* giàu có.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "giàu có.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A2CB47A241238260054399D /* GC39.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GC39.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A2CB47C241239000054399D /* info-giauco39.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-giauco39.plist"; sourceTree = "<group>"; };
 		5A866943484AC5DB45A17EF3 /* Pods_shared_base.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shared_base.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AEBE3E323D02EDD00D4BCFE /* CCK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCK.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -905,7 +905,7 @@
 				5AEBE3E323D02EDD00D4BCFE /* CCK.app */,
 				F8C89CAA23EAB655007A9DFD /* 凯斯娱乐城.app */,
 				F8C487DD23F646D6002C0846 /* 南洋在线.app */,
-				5A2CB47A241238260054399D /* giàu có.app */,
+				5A2CB47A241238260054399D /* GC39.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1318,7 +1318,7 @@
 			);
 			name = giauco39;
 			productName = "tetrapods-ios";
-			productReference = 5A2CB47A241238260054399D /* giàu có.app */;
+			productReference = 5A2CB47A241238260054399D /* GC39.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5AEBE3BD23D02EDD00D4BCFE /* cckf2020 */ = {
@@ -3316,7 +3316,7 @@
 				MARKETING_VERSION = 0.7;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PROD";
 				PRODUCT_BUNDLE_IDENTIFIER = com.giauco39.app;
-				PRODUCT_NAME = "giàu có";
+				PRODUCT_NAME = GC39;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -3338,7 +3338,7 @@
 				MARKETING_VERSION = 0.7;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PROD";
 				PRODUCT_BUNDLE_IDENTIFIER = com.giauco39.app;
-				PRODUCT_NAME = "giàu có";
+				PRODUCT_NAME = GC39;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
