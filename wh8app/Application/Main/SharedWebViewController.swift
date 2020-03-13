@@ -34,8 +34,12 @@ class SharedWebViewController: BaseViewController {
     
     // Rx subjects
     let onIndicatorStateChanged = PublishRelay<Bool>()
+    let onListenＷebLoading = PublishRelay<Bool>()
     let onBackNavigationStateChanged = PublishRelay<Bool>()
     let onLoadingNavigationUrl = PublishRelay<String?>()
+    
+    // Check if Webview is first time loading or not
+    var isFirstTimeLoadWeb = true
     
     // Constants
     private let allowedSchemes = ["ds41cm", "itms-services", "line", "itms-apps", "weixin", "alipays"]
@@ -193,9 +197,9 @@ extension SharedWebViewController: WKNavigationDelegate {
         onIndicatorStateChanged.accept(false)
         
         // Check if Webview is first time loading or not
-        if (Loadwebiew.shared.isFirstTimeLoad == true){
-            ListeningWebViewSetting.shared.launchimg.removeFromSuperview()
-            Loadwebiew.shared.isFirstTimeLoad = false
+        if (isFirstTimeLoadWeb == true){
+            onListenＷebLoading.accept(false)
+            isFirstTimeLoadWeb = false
         }
     }
     
