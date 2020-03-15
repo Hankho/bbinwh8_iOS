@@ -469,24 +469,6 @@
 		ADF466D622DED3590080106D /* UserTicketResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466D522DED3590080106D /* UserTicketResponse.swift */; };
 		BD4FCEED9915718007CA5EC7 /* Pods_shared_bbinwh8.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6703B1B782C7B638313FDAF3 /* Pods_shared_bbinwh8.framework */; };
 		E94F4BCD990D3AB221C3E0E6 /* Pods_shared_tiansheng.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E0FC31C041B7F3A34711C21 /* Pods_shared_tiansheng.framework */; };
-		F80849C423FE871B00D3FD32 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80849C323FE871B00D3FD32 /* LaunchViewController.swift */; };
-		F80849C523FE871B00D3FD32 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80849C323FE871B00D3FD32 /* LaunchViewController.swift */; };
-		F80849C623FE871B00D3FD32 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80849C323FE871B00D3FD32 /* LaunchViewController.swift */; };
-		F80849C723FE871B00D3FD32 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80849C323FE871B00D3FD32 /* LaunchViewController.swift */; };
-		F80849C823FE871B00D3FD32 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80849C323FE871B00D3FD32 /* LaunchViewController.swift */; };
-		F80849C923FE871B00D3FD32 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80849C323FE871B00D3FD32 /* LaunchViewController.swift */; };
-		F80849CA23FE871B00D3FD32 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80849C323FE871B00D3FD32 /* LaunchViewController.swift */; };
-		F80849CB23FE871B00D3FD32 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80849C323FE871B00D3FD32 /* LaunchViewController.swift */; };
-		F80849CC23FE871B00D3FD32 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80849C323FE871B00D3FD32 /* LaunchViewController.swift */; };
-		F80849CD23FE871B00D3FD32 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80849C323FE871B00D3FD32 /* LaunchViewController.swift */; };
-		F80849CE23FE871B00D3FD32 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80849C323FE871B00D3FD32 /* LaunchViewController.swift */; };
-		F80849CF23FE871B00D3FD32 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80849C323FE871B00D3FD32 /* LaunchViewController.swift */; };
-		F80849D023FE871B00D3FD32 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80849C323FE871B00D3FD32 /* LaunchViewController.swift */; };
-		F80849D123FE871B00D3FD32 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80849C323FE871B00D3FD32 /* LaunchViewController.swift */; };
-		F80849D223FE871B00D3FD32 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80849C323FE871B00D3FD32 /* LaunchViewController.swift */; };
-		F80849D323FE871B00D3FD32 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80849C323FE871B00D3FD32 /* LaunchViewController.swift */; };
-		F80849D423FE871B00D3FD32 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80849C323FE871B00D3FD32 /* LaunchViewController.swift */; };
-		F80849D523FE871B00D3FD32 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80849C323FE871B00D3FD32 /* LaunchViewController.swift */; };
 		F8C487B923F646D6002C0846 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCB259C22E07CA700AB6C30 /* String+Extension.swift */; };
 		F8C487BA23F646D6002C0846 /* UserTicketResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466D522DED3590080106D /* UserTicketResponse.swift */; };
 		F8C487BB23F646D6002C0846 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD272D3D22EAF40400F806EF /* UIView+Extension.swift */; };
@@ -638,7 +620,6 @@
 		CC256600A60CAC837CF2D4D9 /* Pods_shared_coolbet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shared_coolbet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E630E9DCCC561A6C6BE4F089 /* Pods-shared-base.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-base.release.xcconfig"; path = "Target Support Files/Pods-shared-base/Pods-shared-base.release.xcconfig"; sourceTree = "<group>"; };
 		F73A4C5664DFC98A778A3DF9 /* Pods-shared-bbinwh8.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-bbinwh8.debug.xcconfig"; path = "Target Support Files/Pods-shared-bbinwh8/Pods-shared-bbinwh8.debug.xcconfig"; sourceTree = "<group>"; };
-		F80849C323FE871B00D3FD32 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		F8C487DD23F646D6002C0846 /* 南洋在线.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "南洋在线.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8C487DF23F647E4002C0846 /* info-nanyang999.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-nanyang999.plist"; sourceTree = "<group>"; };
 		F8C89CAA23EAB655007A9DFD /* 凯斯娱乐城.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "凯斯娱乐城.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -959,7 +940,6 @@
 		ADF466D022DDD41C0080106D /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				F80849C323FE871B00D3FD32 /* LaunchViewController.swift */,
 				AD626C1422DC515A0024510D /* MainViewController.swift */,
 				AD626C0222DC4B060024510D /* SharedWebViewController.swift */,
 				AD626C0422DC4B060024510D /* SettingsViewController.swift */,
@@ -2003,7 +1983,6 @@
 				0EE362B122F4276700BD60DC /* Constants.swift in Sources */,
 				0EE362B222F4276700BD60DC /* BaseVeiwModel.swift in Sources */,
 				0EE362B322F4276700BD60DC /* AppRepository.swift in Sources */,
-				F80849C523FE871B00D3FD32 /* LaunchViewController.swift in Sources */,
 				AD9E69E722F8079D00F8C001 /* Data+Extension.swift in Sources */,
 				AD9E69E922F8183A00F8C001 /* AppUtil.swift in Sources */,
 			);
@@ -2032,7 +2011,6 @@
 				18053AC6237525DD00BC689F /* APIManager.swift in Sources */,
 				18053AC7237525DD00BC689F /* APIService.swift in Sources */,
 				18053AC8237525DD00BC689F /* Constants.swift in Sources */,
-				F80849CD23FE871B00D3FD32 /* LaunchViewController.swift in Sources */,
 				18053AC9237525DD00BC689F /* BaseVeiwModel.swift in Sources */,
 				18053ACA237525DD00BC689F /* AppRepository.swift in Sources */,
 			);
@@ -2061,7 +2039,6 @@
 				18053B1A237549C100BC689F /* APIManager.swift in Sources */,
 				18053B1B237549C100BC689F /* APIService.swift in Sources */,
 				18053B1C237549C100BC689F /* Constants.swift in Sources */,
-				F80849CE23FE871B00D3FD32 /* LaunchViewController.swift in Sources */,
 				18053B1D237549C100BC689F /* BaseVeiwModel.swift in Sources */,
 				18053B1E237549C100BC689F /* AppRepository.swift in Sources */,
 			);
@@ -2090,7 +2067,6 @@
 				1860BFF72339EE92001C0953 /* APIManager.swift in Sources */,
 				1860BFF82339EE92001C0953 /* APIService.swift in Sources */,
 				1860BFF92339EE92001C0953 /* Constants.swift in Sources */,
-				F80849C723FE871B00D3FD32 /* LaunchViewController.swift in Sources */,
 				1860BFFA2339EE92001C0953 /* BaseVeiwModel.swift in Sources */,
 				1860BFFB2339EE92001C0953 /* AppRepository.swift in Sources */,
 			);
@@ -2119,7 +2095,6 @@
 				187C9D03233B33DD00030CED /* APIManager.swift in Sources */,
 				187C9D04233B33DD00030CED /* APIService.swift in Sources */,
 				187C9D05233B33DD00030CED /* Constants.swift in Sources */,
-				F80849C923FE871B00D3FD32 /* LaunchViewController.swift in Sources */,
 				187C9D06233B33DD00030CED /* BaseVeiwModel.swift in Sources */,
 				187C9D07233B33DD00030CED /* AppRepository.swift in Sources */,
 			);
@@ -2148,7 +2123,6 @@
 				187C9D51233B405100030CED /* APIManager.swift in Sources */,
 				187C9D52233B405100030CED /* APIService.swift in Sources */,
 				187C9D53233B405100030CED /* Constants.swift in Sources */,
-				F80849C823FE871B00D3FD32 /* LaunchViewController.swift in Sources */,
 				187C9D54233B405100030CED /* BaseVeiwModel.swift in Sources */,
 				187C9D55233B405100030CED /* AppRepository.swift in Sources */,
 			);
@@ -2177,7 +2151,6 @@
 				18907BB023867B8E00797DD2 /* APIManager.swift in Sources */,
 				18907BB123867B8E00797DD2 /* APIService.swift in Sources */,
 				18907BB223867B8E00797DD2 /* Constants.swift in Sources */,
-				F80849CF23FE871B00D3FD32 /* LaunchViewController.swift in Sources */,
 				18907BB323867B8E00797DD2 /* BaseVeiwModel.swift in Sources */,
 				18907BB423867B8E00797DD2 /* AppRepository.swift in Sources */,
 			);
@@ -2206,7 +2179,6 @@
 				18907BDC238E1F0400797DD2 /* Constants.swift in Sources */,
 				18907BDD238E1F0400797DD2 /* BaseVeiwModel.swift in Sources */,
 				18907BDE238E1F0400797DD2 /* AppRepository.swift in Sources */,
-				F80849D023FE871B00D3FD32 /* LaunchViewController.swift in Sources */,
 				18907BDF238E1F0400797DD2 /* Data+Extension.swift in Sources */,
 				18907BE0238E1F0400797DD2 /* AppUtil.swift in Sources */,
 			);
@@ -2235,7 +2207,6 @@
 				18907C0623975A3100797DD2 /* Constants.swift in Sources */,
 				18907C0723975A3100797DD2 /* BaseVeiwModel.swift in Sources */,
 				18907C0823975A3100797DD2 /* AppRepository.swift in Sources */,
-				F80849D123FE871B00D3FD32 /* LaunchViewController.swift in Sources */,
 				18907C0923975A3100797DD2 /* Data+Extension.swift in Sources */,
 				18907C0A23975A3100797DD2 /* AppUtil.swift in Sources */,
 			);
@@ -2264,7 +2235,6 @@
 				18907C572397813B00797DD2 /* Constants.swift in Sources */,
 				18907C582397813B00797DD2 /* BaseVeiwModel.swift in Sources */,
 				18907C592397813B00797DD2 /* AppRepository.swift in Sources */,
-				F80849D223FE871B00D3FD32 /* LaunchViewController.swift in Sources */,
 				18907C5A2397813B00797DD2 /* Data+Extension.swift in Sources */,
 				18907C5B2397813B00797DD2 /* AppUtil.swift in Sources */,
 			);
@@ -2293,7 +2263,6 @@
 				18AE4840234C772E004F05C5 /* APIManager.swift in Sources */,
 				18AE4841234C772E004F05C5 /* APIService.swift in Sources */,
 				18AE4842234C772E004F05C5 /* Constants.swift in Sources */,
-				F80849CB23FE871B00D3FD32 /* LaunchViewController.swift in Sources */,
 				18AE4843234C772E004F05C5 /* BaseVeiwModel.swift in Sources */,
 				18AE4844234C772E004F05C5 /* AppRepository.swift in Sources */,
 			);
@@ -2322,7 +2291,6 @@
 				18AE48B5234DC72B004F05C5 /* APIManager.swift in Sources */,
 				18AE48B6234DC72B004F05C5 /* APIService.swift in Sources */,
 				18AE48B7234DC72B004F05C5 /* Constants.swift in Sources */,
-				F80849CA23FE871B00D3FD32 /* LaunchViewController.swift in Sources */,
 				18AE48B8234DC72B004F05C5 /* BaseVeiwModel.swift in Sources */,
 				18AE48B9234DC72B004F05C5 /* AppRepository.swift in Sources */,
 			);
@@ -2351,7 +2319,6 @@
 				18AE49062366C523004F05C5 /* APIManager.swift in Sources */,
 				18AE49072366C523004F05C5 /* APIService.swift in Sources */,
 				18AE49082366C523004F05C5 /* Constants.swift in Sources */,
-				F80849CC23FE871B00D3FD32 /* LaunchViewController.swift in Sources */,
 				18AE49092366C523004F05C5 /* BaseVeiwModel.swift in Sources */,
 				18AE490A2366C523004F05C5 /* AppRepository.swift in Sources */,
 			);
@@ -2380,7 +2347,6 @@
 				5AEBE3D023D02EDD00D4BCFE /* Constants.swift in Sources */,
 				5AEBE3D123D02EDD00D4BCFE /* BaseVeiwModel.swift in Sources */,
 				5AEBE3D223D02EDD00D4BCFE /* AppRepository.swift in Sources */,
-				F80849D323FE871B00D3FD32 /* LaunchViewController.swift in Sources */,
 				5AEBE3D323D02EDD00D4BCFE /* Data+Extension.swift in Sources */,
 				5AEBE3D423D02EDD00D4BCFE /* AppUtil.swift in Sources */,
 			);
@@ -2409,7 +2375,6 @@
 				AD272D2922E9980800F806EF /* Constants.swift in Sources */,
 				AD272D2A22E9980800F806EF /* BaseVeiwModel.swift in Sources */,
 				AD272D2B22E9980800F806EF /* AppRepository.swift in Sources */,
-				F80849C623FE871B00D3FD32 /* LaunchViewController.swift in Sources */,
 				AD9E69E622F8079D00F8C001 /* Data+Extension.swift in Sources */,
 				AD9E69E822F8183A00F8C001 /* AppUtil.swift in Sources */,
 			);
@@ -2438,7 +2403,6 @@
 				ADF466BB22DC68870080106D /* APIManager.swift in Sources */,
 				ADF466BF22DC6AEA0080106D /* APIService.swift in Sources */,
 				ADF466BD22DC69060080106D /* Constants.swift in Sources */,
-				F80849C423FE871B00D3FD32 /* LaunchViewController.swift in Sources */,
 				ADF466D222DED00F0080106D /* BaseVeiwModel.swift in Sources */,
 				ADF466C422DC81420080106D /* AppRepository.swift in Sources */,
 			);
@@ -2467,7 +2431,6 @@
 				F8C487C923F646D6002C0846 /* Constants.swift in Sources */,
 				F8C487CA23F646D6002C0846 /* BaseVeiwModel.swift in Sources */,
 				F8C487CB23F646D6002C0846 /* AppRepository.swift in Sources */,
-				F80849D523FE871B00D3FD32 /* LaunchViewController.swift in Sources */,
 				F8C487CC23F646D6002C0846 /* Data+Extension.swift in Sources */,
 				F8C487CD23F646D6002C0846 /* AppUtil.swift in Sources */,
 			);
@@ -2496,7 +2459,6 @@
 				F8C89C9623EAB655007A9DFD /* Constants.swift in Sources */,
 				F8C89C9723EAB655007A9DFD /* BaseVeiwModel.swift in Sources */,
 				F8C89C9823EAB655007A9DFD /* AppRepository.swift in Sources */,
-				F80849D423FE871B00D3FD32 /* LaunchViewController.swift in Sources */,
 				F8C89C9923EAB655007A9DFD /* Data+Extension.swift in Sources */,
 				F8C89C9A23EAB655007A9DFD /* AppUtil.swift in Sources */,
 			);
