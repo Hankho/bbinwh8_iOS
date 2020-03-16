@@ -34,8 +34,12 @@ class SharedWebViewController: BaseViewController {
     
     // Rx subjects
     let onIndicatorStateChanged = PublishRelay<Bool>()
+    let onListenＷebLoading = PublishRelay<Bool>()
     let onBackNavigationStateChanged = PublishRelay<Bool>()
     let onLoadingNavigationUrl = PublishRelay<String?>()
+    
+    // Check if Webview is first time loading or not
+    var isFirstTimeLoadWeb = true
     
     // Constants
     private let allowedSchemes = ["ds41cm", "itms-services", "line", "itms-apps", "weixin", "alipays"]
@@ -191,6 +195,12 @@ extension SharedWebViewController: WKNavigationDelegate {
         
         // Stop loading indicator on finished loading
         onIndicatorStateChanged.accept(false)
+        
+        // Check if Webview is first time loading or not
+        if (isFirstTimeLoadWeb == true){
+            onListenＷebLoading.accept(false)
+            isFirstTimeLoadWeb = false
+        }
     }
     
     func webView(_ webView: WKWebView, didFail navigation: WKNavigation!, withError error: Error) {

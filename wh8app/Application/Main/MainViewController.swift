@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RxCocoa
 import LocalAuthentication
 
 class MainViewController: BaseViewController {
@@ -40,6 +41,34 @@ class MainViewController: BaseViewController {
     // View model
     private let viewModel = AppViewModel()
     
+    // Rx subjects
+    let onListenApiCalling = PublishRelay<Bool>()
+    let onListenＷebLoading = PublishRelay<Bool>()
+    
+    // LaunchImage for listening api calling...
+    var CallApiImg: UIImageView = {
+        let image = UIImage(named: "startimg_\(AppUtil.targetId).png")
+        let imageView = UIImageView(image: image!)
+        let screenSize: CGRect = UIScreen.main.bounds
+        let screenWidth = screenSize.width
+        let screenHeight = screenSize.height
+        imageView.frame = CGRect(x: 0, y: 0, width: screenWidth, height: screenHeight)
+        imageView.autoresizingMask =  [.flexibleWidth, .flexibleHeight]
+        return imageView
+    }()
+    
+    // BlockImage for listening Webview loading...
+    var WebLoadImg: UIImageView = {
+        let image = UIImage(named: "startimg_second.png")
+        let imageView = UIImageView(image: image!)
+        let screenSize: CGRect = UIScreen.main.bounds
+        let screenWidth = screenSize.width
+        let screenHeight = screenSize.height
+        imageView.frame = CGRect(x: 0, y: 0, width: screenWidth, height: screenHeight)
+        imageView.autoresizingMask =  [.flexibleWidth, .flexibleHeight]
+        return imageView
+    }()
+    
     // Variables
     private var laContext = LAContext()
     private lazy var biometryType: BiometryType = {
@@ -60,6 +89,8 @@ class MainViewController: BaseViewController {
         super.viewDidLoad()
         initialisation()
         observeAndSubscribe()
+        onListenＷebLoading.accept(true)
+        onListenApiCalling.accept(true)
         requestSiteInfo() // S1
     }
     
@@ -88,6 +119,8 @@ class MainViewController: BaseViewController {
                     self?.goHomePage(urlString: siteInfo.homeAddress) // F2
                     self?.checkLocalAccounts() // F5
                 }
+                //self?.CallApiImg.removeFromSuperview()
+                self?.onListenApiCalling.accept(false)
             }
             
             // Stop loading indicator
@@ -113,6 +146,24 @@ class MainViewController: BaseViewController {
             self?.showAlert(title: error.reason, message: error.description, actions: [okBtn, cancelBtn])
             // Stop loading indicator
             self?.showActivityIndicator(false)
+        }).disposed(by: disposeBag)
+        
+        // Observe api calling state in MainViewController
+        self.onListenApiCalling.subscribe(onNext: { [weak self] (show) in
+            // Show or Hide CallApiImage
+            self?.showCallApiImage(show)
+        }).disposed(by: disposeBag)
+        
+        // Observe webview loading state in MainViewController
+        self.onListenＷebLoading.subscribe(onNext: { [weak self] (show) in
+            // Show or Hide WebLoadImage
+            self?.showWebLoadImage(show)
+        }).disposed(by: disposeBag)
+        
+        // Observe webview loading state in SharedWebViewController
+        sharedWebVC.onListenＷebLoading.subscribe(onNext: { [weak self] (show) in
+            // Show or Hide WebLoadImage
+            self?.showWebLoadImage(show)
         }).disposed(by: disposeBag)
         
         // Observe activity indicator state change in SharedWebViewController
@@ -191,6 +242,22 @@ class MainViewController: BaseViewController {
             activityIndicator.startAnimating()
         } else {
             activityIndicator.stopAnimating()
+        }
+    }
+    
+    private func showCallApiImage(_ show: Bool) {
+        if show {
+            self.view.addSubview(CallApiImg)
+        } else {
+            self.CallApiImg.removeFromSuperview()
+        }
+    }
+    
+    private func showWebLoadImage(_ show: Bool) {
+        if show {
+            self.view.addSubview(WebLoadImg)
+        } else {
+            self.WebLoadImg.removeFromSuperview()
         }
     }
     
