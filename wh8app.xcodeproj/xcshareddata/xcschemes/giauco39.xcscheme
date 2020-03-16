@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5A2CB450241238260054399D"
-               BuildableName = "gia&#x300;u co&#x301;.app"
+               BuildableName = "GC39.app"
                BlueprintName = "giauco39"
                ReferencedContainer = "container:wh8app.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5A2CB450241238260054399D"
-            BuildableName = "gia&#x300;u co&#x301;.app"
+            BuildableName = "GC39.app"
             BlueprintName = "giauco39"
             ReferencedContainer = "container:wh8app.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5A2CB450241238260054399D"
-            BuildableName = "gia&#x300;u co&#x301;.app"
+            BuildableName = "GC39.app"
             BlueprintName = "giauco39"
             ReferencedContainer = "container:wh8app.xcodeproj">
          </BuildableReference>
