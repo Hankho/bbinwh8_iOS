@@ -36,7 +36,10 @@ abstract_target 'shared' do
   
   target 'rbet999' do
   end
-  
+ 
+  target 'rbet999web' do
+  end
+
   target 'dafa211' do
   end
 
@@ -48,7 +51,16 @@ abstract_target 'shared' do
 
   target 'x9977' do
   end
- 
+  
+  target 'betwin899' do
+  end 
+  
+  target 'cckf2020' do
+  end
+
+  target 'cash888' do
+  end
+
   target 'giauco39' do
   end
 

@@ -1,0 +1,6 @@
+framework module Pods_shared_betwin899 {
+  umbrella header "Pods-shared-betwin899-umbrella.h"
+
+  export *
+  module * { export * }
+}

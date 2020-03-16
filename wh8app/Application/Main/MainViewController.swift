@@ -47,7 +47,7 @@ class MainViewController: BaseViewController {
     
     // LaunchImage for listening api calling...
     var CallApiImg: UIImageView = {
-        let image = UIImage(named: "startimg_\(AppUtil.targetId).png")
+        let image = UIImage(named: "apicalling_image.png")
         let imageView = UIImageView(image: image!)
         let screenSize: CGRect = UIScreen.main.bounds
         let screenWidth = screenSize.width
@@ -59,7 +59,7 @@ class MainViewController: BaseViewController {
     
     // BlockImage for listening Webview loading...
     var WebLoadImg: UIImageView = {
-        let image = UIImage(named: "startimg_second.png")
+        let image = UIImage(named: "webviewloading_image.png")
         let imageView = UIImageView(image: image!)
         let screenSize: CGRect = UIScreen.main.bounds
         let screenWidth = screenSize.width

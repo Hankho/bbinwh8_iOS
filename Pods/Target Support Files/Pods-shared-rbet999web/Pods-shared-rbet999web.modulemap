@@ -1,0 +1,6 @@
+framework module Pods_shared_rbet999web {
+  umbrella header "Pods-shared-rbet999web-umbrella.h"
+
+  export *
+  module * { export * }
+}
