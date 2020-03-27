@@ -1,0 +1,6 @@
+framework module Pods_shared_hb668vn {
+  umbrella header "Pods-shared-hb668vn-umbrella.h"
+
+  export *
+  module * { export * }
+}

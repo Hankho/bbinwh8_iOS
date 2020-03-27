@@ -64,4 +64,7 @@ abstract_target 'shared' do
   target 'giauco39' do
   end
 
+  target 'hb668vn' do
+  end
+
 end
