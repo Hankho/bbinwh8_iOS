@@ -70,4 +70,7 @@ abstract_target 'shared' do
   target 'mgm668' do
   end
 
+  target 'yhy888' do
+  end
+
 end

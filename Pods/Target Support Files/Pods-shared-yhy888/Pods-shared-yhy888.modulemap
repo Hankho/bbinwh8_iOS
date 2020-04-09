@@ -1,0 +1,6 @@
+framework module Pods_shared_yhy888 {
+  umbrella header "Pods-shared-yhy888-umbrella.h"
+
+  export *
+  module * { export * }
+}
