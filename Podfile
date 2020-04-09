@@ -67,4 +67,7 @@ abstract_target 'shared' do
   target 'hb668vn' do
   end
 
+  target 'mgm668' do
+  end
+
 end

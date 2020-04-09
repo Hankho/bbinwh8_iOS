@@ -1,0 +1,6 @@
+framework module Pods_shared_mgm668 {
+  umbrella header "Pods-shared-mgm668-umbrella.h"
+
+  export *
+  module * { export * }
+}
