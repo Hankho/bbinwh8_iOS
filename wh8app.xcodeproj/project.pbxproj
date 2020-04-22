@@ -479,6 +479,44 @@
 		5A47148B243F016300B049F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD626C0622DC4B060024510D /* Main.storyboard */; };
 		5A471493243F01AE00B049F2 /* info-yhy888.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A471492243F01AE00B049F2 /* info-yhy888.plist */; };
 		5A471495243F027700B049F2 /* yhy888.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A471494243F027700B049F2 /* yhy888.storyboard */; };
+		5A7933202450171800E72A82 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCB259C22E07CA700AB6C30 /* String+Extension.swift */; };
+		5A7933212450171800E72A82 /* UserTicketResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466D522DED3590080106D /* UserTicketResponse.swift */; };
+		5A7933222450171800E72A82 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD272D3D22EAF40400F806EF /* UIView+Extension.swift */; };
+		5A7933232450171800E72A82 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB546652305123C000B837B /* CustomView.swift */; };
+		5A7933242450171800E72A82 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466CE22DDD3E40080106D /* AppViewModel.swift */; };
+		5A7933252450171800E72A82 /* SessionStatusResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466D322DED3180080106D /* SessionStatusResponse.swift */; };
+		5A7933262450171800E72A82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD626C0022DC4B060024510D /* AppDelegate.swift */; };
+		5A7933272450171800E72A82 /* SharedWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD626C0222DC4B060024510D /* SharedWebViewController.swift */; };
+		5A7933282450171800E72A82 /* Dictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9E69E022F8073300F8C001 /* Dictionary+Extension.swift */; };
+		5A7933292450171800E72A82 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD626C0422DC4B060024510D /* SettingsViewController.swift */; };
+		5A79332A2450171800E72A82 /* SiteInfoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466C622DC82250080106D /* SiteInfoResponse.swift */; };
+		5A79332B2450171800E72A82 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD626C1422DC515A0024510D /* MainViewController.swift */; };
+		5A79332C2450171800E72A82 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466B422DC65AC0080106D /* BaseViewController.swift */; };
+		5A79332D2450171800E72A82 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466BA22DC68870080106D /* APIManager.swift */; };
+		5A79332E2450171800E72A82 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD25DE3722F947E3009993A0 /* APIError.swift */; };
+		5A79332F2450171800E72A82 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466BE22DC6AEA0080106D /* APIService.swift */; };
+		5A7933302450171800E72A82 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466BC22DC69060080106D /* Constants.swift */; };
+		5A7933312450171800E72A82 /* BaseVeiwModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466D122DED00F0080106D /* BaseVeiwModel.swift */; };
+		5A7933322450171800E72A82 /* AppRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466C322DC81420080106D /* AppRepository.swift */; };
+		5A7933332450171800E72A82 /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9E69E422F8079D00F8C001 /* Data+Extension.swift */; };
+		5A7933342450171800E72A82 /* AppUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9E69DE22F7EC4C00F8C001 /* AppUtil.swift */; };
+		5A7933362450171800E72A82 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF466CC22DDC5A40080106D /* WebKit.framework */; };
+		5A7933372450171800E72A82 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		5A7933382450171800E72A82 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		5A7933392450171800E72A82 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		5A79333A2450171800E72A82 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		5A79333B2450171800E72A82 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		5A79333C2450171800E72A82 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		5A79333D2450171800E72A82 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		5A79333E2450171800E72A82 /* Pods_shared_bbinwh8.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A063D685E80E347E338594E3 /* Pods_shared_bbinwh8.framework */; };
+		5A7933402450171800E72A82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD626C0B22DC4B080024510D /* LaunchScreen.storyboard */; };
+		5A7933412450171800E72A82 /* bbinwh8.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AC76C54241F238000C69B85 /* bbinwh8.storyboard */; };
+		5A7933422450171800E72A82 /* info-bbinwh8.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E6ED31C22F3CF7600B4FB11 /* info-bbinwh8.plist */; };
+		5A7933432450171800E72A82 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18BF344823471BA000564EBF /* Localizable.strings */; };
+		5A7933442450171800E72A82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD626C0922DC4B080024510D /* Assets.xcassets */; };
+		5A7933452450171800E72A82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD626C0622DC4B060024510D /* Main.storyboard */; };
+		5A79334D2450177F00E72A82 /* mekong68vn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A79334C2450177F00E72A82 /* mekong68vn.storyboard */; };
+		5A79334F245017FD00E72A82 /* info-mekong68vn.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A79334E245017FD00E72A82 /* info-mekong68vn.plist */; };
 		5A8E8391242DEE0100A637C6 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCB259C22E07CA700AB6C30 /* String+Extension.swift */; };
 		5A8E8392242DEE0100A637C6 /* UserTicketResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466D522DED3590080106D /* UserTicketResponse.swift */; };
 		5A8E8393242DEE0100A637C6 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD272D3D22EAF40400F806EF /* UIView+Extension.swift */; };
@@ -737,6 +775,9 @@
 		5A471490243F016300B049F2 /* 银河.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "银河.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A471492243F01AE00B049F2 /* info-yhy888.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-yhy888.plist"; sourceTree = "<group>"; };
 		5A471494243F027700B049F2 /* yhy888.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = yhy888.storyboard; sourceTree = "<group>"; };
+		5A79334A2450171800E72A82 /* SMK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A79334C2450177F00E72A82 /* mekong68vn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = mekong68vn.storyboard; sourceTree = "<group>"; };
+		5A79334E245017FD00E72A82 /* info-mekong68vn.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-mekong68vn.plist"; sourceTree = "<group>"; };
 		5A866943484AC5DB45A17EF3 /* Pods_shared_base.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shared_base.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A8E83B9242DEE0100A637C6 /* HB68.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HB68.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A8E83BB242DEE5300A637C6 /* info-hb668vn.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-hb668vn.plist"; sourceTree = "<group>"; };
@@ -967,6 +1008,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5A7933352450171800E72A82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7933362450171800E72A82 /* WebKit.framework in Frameworks */,
+				5A7933372450171800E72A82 /* (null) in Frameworks */,
+				5A7933382450171800E72A82 /* (null) in Frameworks */,
+				5A7933392450171800E72A82 /* (null) in Frameworks */,
+				5A79333A2450171800E72A82 /* (null) in Frameworks */,
+				5A79333B2450171800E72A82 /* (null) in Frameworks */,
+				5A79333C2450171800E72A82 /* (null) in Frameworks */,
+				5A79333D2450171800E72A82 /* (null) in Frameworks */,
+				5A79333E2450171800E72A82 /* Pods_shared_bbinwh8.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5A8E83A6242DEE0100A637C6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1047,6 +1104,7 @@
 				5A8E83BD242DEF3800A637C6 /* hb668vn.storyboard */,
 				5A471462243EFEFC00B049F2 /* mgm668.storyboard */,
 				5A471494243F027700B049F2 /* yhy888.storyboard */,
+				5A79334C2450177F00E72A82 /* mekong68vn.storyboard */,
 			);
 			path = LaunchScreenSet;
 			sourceTree = "<group>";
@@ -1103,6 +1161,7 @@
 				5A8E83B9242DEE0100A637C6 /* HB68.app */,
 				5A47145E243EFBE200B049F2 /* 美高梅.app */,
 				5A471490243F016300B049F2 /* 银河.app */,
+				5A79334A2450171800E72A82 /* SMK.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1144,6 +1203,7 @@
 				5A8E83BB242DEE5300A637C6 /* info-hb668vn.plist */,
 				5A471460243EFC5C00B049F2 /* info-mgm668.plist */,
 				5A471492243F01AE00B049F2 /* info-yhy888.plist */,
+				5A79334E245017FD00E72A82 /* info-mekong68vn.plist */,
 				18BF344823471BA000564EBF /* Localizable.strings */,
 			);
 			path = wh8app;
@@ -1585,6 +1645,25 @@
 			productReference = 5A471490243F016300B049F2 /* 银河.app */;
 			productType = "com.apple.product-type.application";
 		};
+		5A79331D2450171800E72A82 /* mekong68vn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A7933472450171800E72A82 /* Build configuration list for PBXNativeTarget "mekong68vn" */;
+			buildPhases = (
+				5A79331E2450171800E72A82 /* [CP] Check Pods Manifest.lock */,
+				5A79331F2450171800E72A82 /* Sources */,
+				5A7933352450171800E72A82 /* Frameworks */,
+				5A79333F2450171800E72A82 /* Resources */,
+				5A7933462450171800E72A82 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mekong68vn;
+			productName = "tetrapods-ios";
+			productReference = 5A79334A2450171800E72A82 /* SMK.app */;
+			productType = "com.apple.product-type.application";
+		};
 		5A8E838E242DEE0100A637C6 /* hb668vn */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A8E83B6242DEE0100A637C6 /* Build configuration list for PBXNativeTarget "hb668vn" */;
@@ -1751,6 +1830,7 @@
 				5A8E838E242DEE0100A637C6 /* hb668vn */,
 				5A471432243EFBE200B049F2 /* mgm668 */,
 				5A471464243F016300B049F2 /* yhy888 */,
+				5A79331D2450171800E72A82 /* mekong68vn */,
 			);
 		};
 /* End PBXProject section */
@@ -1971,6 +2051,21 @@
 				5A471489243F016300B049F2 /* Localizable.strings in Resources */,
 				5A47148A243F016300B049F2 /* Assets.xcassets in Resources */,
 				5A47148B243F016300B049F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A79333F2450171800E72A82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7933402450171800E72A82 /* LaunchScreen.storyboard in Resources */,
+				5A7933412450171800E72A82 /* bbinwh8.storyboard in Resources */,
+				5A79334D2450177F00E72A82 /* mekong68vn.storyboard in Resources */,
+				5A79334F245017FD00E72A82 /* info-mekong68vn.plist in Resources */,
+				5A7933422450171800E72A82 /* info-bbinwh8.plist in Resources */,
+				5A7933432450171800E72A82 /* Localizable.strings in Resources */,
+				5A7933442450171800E72A82 /* Assets.xcassets in Resources */,
+				5A7933452450171800E72A82 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2442,6 +2537,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-shared-yhy888/Pods-shared-yhy888-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A79331E2450171800E72A82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-shared-bbinwh8-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A7933462450171800E72A82 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-shared-bbinwh8/Pods-shared-bbinwh8-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-shared-bbinwh8/Pods-shared-bbinwh8-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-shared-bbinwh8/Pods-shared-bbinwh8-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5A8E838F242DEE0100A637C6 /* [CP] Check Pods Manifest.lock */ = {
@@ -3210,6 +3344,34 @@
 				5A471479243F016300B049F2 /* AppRepository.swift in Sources */,
 				5A47147A243F016300B049F2 /* Data+Extension.swift in Sources */,
 				5A47147B243F016300B049F2 /* AppUtil.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A79331F2450171800E72A82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7933202450171800E72A82 /* String+Extension.swift in Sources */,
+				5A7933212450171800E72A82 /* UserTicketResponse.swift in Sources */,
+				5A7933222450171800E72A82 /* UIView+Extension.swift in Sources */,
+				5A7933232450171800E72A82 /* CustomView.swift in Sources */,
+				5A7933242450171800E72A82 /* AppViewModel.swift in Sources */,
+				5A7933252450171800E72A82 /* SessionStatusResponse.swift in Sources */,
+				5A7933262450171800E72A82 /* AppDelegate.swift in Sources */,
+				5A7933272450171800E72A82 /* SharedWebViewController.swift in Sources */,
+				5A7933282450171800E72A82 /* Dictionary+Extension.swift in Sources */,
+				5A7933292450171800E72A82 /* SettingsViewController.swift in Sources */,
+				5A79332A2450171800E72A82 /* SiteInfoResponse.swift in Sources */,
+				5A79332B2450171800E72A82 /* MainViewController.swift in Sources */,
+				5A79332C2450171800E72A82 /* BaseViewController.swift in Sources */,
+				5A79332D2450171800E72A82 /* APIManager.swift in Sources */,
+				5A79332E2450171800E72A82 /* APIError.swift in Sources */,
+				5A79332F2450171800E72A82 /* APIService.swift in Sources */,
+				5A7933302450171800E72A82 /* Constants.swift in Sources */,
+				5A7933312450171800E72A82 /* BaseVeiwModel.swift in Sources */,
+				5A7933322450171800E72A82 /* AppRepository.swift in Sources */,
+				5A7933332450171800E72A82 /* Data+Extension.swift in Sources */,
+				5A7933342450171800E72A82 /* AppUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4118,6 +4280,50 @@
 			};
 			name = Release;
 		};
+		5A7933482450171800E72A82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F73A4C5664DFC98A778A3DF9 /* Pods-shared-bbinwh8.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = mekong68vn;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CV66AP2S44;
+				INFOPLIST_FILE = "$(SRCROOT)/wh8app/info-mekong68vn.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.8;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PROD";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mekong68vn.app;
+				PRODUCT_NAME = SMK;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A7933492450171800E72A82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99347D1A411FC01F577293B6 /* Pods-shared-bbinwh8.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = mekong68vn;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CV66AP2S44;
+				INFOPLIST_FILE = "$(SRCROOT)/wh8app/info-mekong68vn.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.8;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PROD";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mekong68vn.app;
+				PRODUCT_NAME = SMK;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		5A8E83B7242DEE0100A637C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 239CBDB8E6927312ABFDB929 /* Pods-shared-hb668vn.debug.xcconfig */;
@@ -4649,6 +4855,15 @@
 			buildConfigurations = (
 				5A47148E243F016300B049F2 /* Debug */,
 				5A47148F243F016300B049F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A7933472450171800E72A82 /* Build configuration list for PBXNativeTarget "mekong68vn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A7933482450171800E72A82 /* Debug */,
+				5A7933492450171800E72A82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
