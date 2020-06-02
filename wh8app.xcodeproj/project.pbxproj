@@ -53,7 +53,6 @@
 		18053ACA237525DD00BC689F /* AppRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466C322DC81420080106D /* AppRepository.swift */; };
 		18053ACC237525DD00BC689F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF466CC22DDC5A40080106D /* WebKit.framework */; };
 		18053ACF237525DD00BC689F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18BF344823471BA000564EBF /* Localizable.strings */; };
-		18053AD0237525DD00BC689F /* info-dafa211.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18AE4854234C7805004F05C5 /* info-dafa211.plist */; };
 		18053AD1237525DD00BC689F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD626C0B22DC4B080024510D /* LaunchScreen.storyboard */; };
 		18053AD2237525DD00BC689F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD626C0922DC4B080024510D /* Assets.xcassets */; };
 		18053AD3237525DD00BC689F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD626C0622DC4B060024510D /* Main.storyboard */; };
@@ -82,7 +81,6 @@
 		18053B1E237549C100BC689F /* AppRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466C322DC81420080106D /* AppRepository.swift */; };
 		18053B20237549C100BC689F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF466CC22DDC5A40080106D /* WebKit.framework */; };
 		18053B23237549C100BC689F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18BF344823471BA000564EBF /* Localizable.strings */; };
-		18053B24237549C100BC689F /* info-dafa211.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18AE4854234C7805004F05C5 /* info-dafa211.plist */; };
 		18053B25237549C100BC689F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD626C0B22DC4B080024510D /* LaunchScreen.storyboard */; };
 		18053B26237549C100BC689F /* info-vn999.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18053ADD23753F5300BC689F /* info-vn999.plist */; };
 		18053B27237549C100BC689F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD626C0922DC4B080024510D /* Assets.xcassets */; };
@@ -248,7 +246,6 @@
 		18AE490A2366C523004F05C5 /* AppRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466C322DC81420080106D /* AppRepository.swift */; };
 		18AE490C2366C523004F05C5 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF466CC22DDC5A40080106D /* WebKit.framework */; };
 		18AE490F2366C523004F05C5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18BF344823471BA000564EBF /* Localizable.strings */; };
-		18AE49102366C523004F05C5 /* info-dafa211.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18AE4854234C7805004F05C5 /* info-dafa211.plist */; };
 		18AE49112366C523004F05C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD626C0B22DC4B080024510D /* LaunchScreen.storyboard */; };
 		18AE49122366C523004F05C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD626C0922DC4B080024510D /* Assets.xcassets */; };
 		18AE49132366C523004F05C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD626C0622DC4B060024510D /* Main.storyboard */; };
@@ -576,16 +573,12 @@
 		18053B3223754A1F00BC689F /* info-jb3579.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-jb3579.plist"; sourceTree = "<group>"; };
 		1860C0072339EE92001C0953 /* lt888.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lt888.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		187C9D13233B33DD00030CED /* rbet999.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rbet999.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		187C9D3C233B3F9400030CED /* info-tiansheng.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-tiansheng.plist"; sourceTree = "<group>"; };
-		18907BC723867C0600797DD2 /* info-xs986.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-xs986.plist"; sourceTree = "<group>"; };
 		18907BEF238E1F0400797DD2 /* 金沙会.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "金沙会.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18907BF1238E20A500797DD2 /* info-x9977.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-x9977.plist"; sourceTree = "<group>"; };
-		18907C1B23975A9200797DD2 /* info-jiuding79.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-jiuding79.plist"; sourceTree = "<group>"; };
 		18907C6A2397813B00797DD2 /* 稳盈娱乐城.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "稳盈娱乐城.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18907C6C239781A800797DD2 /* info-betwin899.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-betwin899.plist"; sourceTree = "<group>"; };
 		18A2292B23488FA600F2873E /* info-rbet999.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-rbet999.plist"; sourceTree = "<group>"; };
 		18A2293A234896E400F2873E /* info-lt888.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-lt888.plist"; sourceTree = "<group>"; };
-		18AE4854234C7805004F05C5 /* info-dafa211.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-dafa211.plist"; sourceTree = "<group>"; };
 		18AE48C7234DC72B004F05C5 /* rbet999web.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rbet999web.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18AE48CB234DC79A004F05C5 /* info-rbet999web.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-rbet999web.plist"; sourceTree = "<group>"; };
 		18AE49182366C523004F05C5 /* yh7669.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yh7669.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -695,7 +688,6 @@
 		D38903A51531E7ECC76ACEA0 /* Pods-shared-rbet999web.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-rbet999web.debug.xcconfig"; path = "Target Support Files/Pods-shared-rbet999web/Pods-shared-rbet999web.debug.xcconfig"; sourceTree = "<group>"; };
 		E43AD292369E7614BD1E3F64 /* Pods_shared_cash888.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shared_cash888.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E630E9DCCC561A6C6BE4F089 /* Pods-shared-base.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-base.release.xcconfig"; path = "Target Support Files/Pods-shared-base/Pods-shared-base.release.xcconfig"; sourceTree = "<group>"; };
-		F8C487DF23F647E4002C0846 /* info-nanyang999.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-nanyang999.plist"; sourceTree = "<group>"; };
 		F8C89CAA23EAB655007A9DFD /* 凯斯娱乐城.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "凯斯娱乐城.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8C89CAC23EAB723007A9DFD /* info-cash888.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-cash888.plist"; sourceTree = "<group>"; };
 		F90931A5831405A648AB0687 /* Pods_shared_hb668vn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shared_hb668vn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -974,20 +966,15 @@
 				0E1DFCEA22F4281E002C38C7 /* info-coolbet.plist */,
 				AD626C0E22DC4B080024510D /* info-base.plist */,
 				18A2293A234896E400F2873E /* info-lt888.plist */,
-				187C9D3C233B3F9400030CED /* info-tiansheng.plist */,
 				18A2292B23488FA600F2873E /* info-rbet999.plist */,
-				18AE4854234C7805004F05C5 /* info-dafa211.plist */,
 				18AE48CB234DC79A004F05C5 /* info-rbet999web.plist */,
 				18AE491C2366C627004F05C5 /* info-yh7669.plist */,
 				18053ADD23753F5300BC689F /* info-vn999.plist */,
 				18053B3223754A1F00BC689F /* info-jb3579.plist */,
-				18907BC723867C0600797DD2 /* info-xs986.plist */,
 				18907BF1238E20A500797DD2 /* info-x9977.plist */,
-				18907C1B23975A9200797DD2 /* info-jiuding79.plist */,
 				18907C6C239781A800797DD2 /* info-betwin899.plist */,
 				5AEBE3E523D02F9F00D4BCFE /* info-cckf2020.plist */,
 				F8C89CAC23EAB723007A9DFD /* info-cash888.plist */,
-				F8C487DF23F647E4002C0846 /* info-nanyang999.plist */,
 				5A2CB47C241239000054399D /* info-giauco39.plist */,
 				5A8E83BB242DEE5300A637C6 /* info-hb668vn.plist */,
 				5A471460243EFC5C00B049F2 /* info-mgm668.plist */,
@@ -1544,7 +1531,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				18053ACF237525DD00BC689F /* Localizable.strings in Resources */,
-				18053AD0237525DD00BC689F /* info-dafa211.plist in Resources */,
 				18053AD1237525DD00BC689F /* LaunchScreen.storyboard in Resources */,
 				18053ADE23753F5300BC689F /* info-vn999.plist in Resources */,
 				18053AD2237525DD00BC689F /* Assets.xcassets in Resources */,
@@ -1558,7 +1544,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				18053B23237549C100BC689F /* Localizable.strings in Resources */,
-				18053B24237549C100BC689F /* info-dafa211.plist in Resources */,
 				18053B3323754A2000BC689F /* info-jb3579.plist in Resources */,
 				18053B25237549C100BC689F /* LaunchScreen.storyboard in Resources */,
 				5AC76C5F241F2FD900C69B85 /* jb3579.storyboard in Resources */,
@@ -1640,7 +1625,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				18AE490F2366C523004F05C5 /* Localizable.strings in Resources */,
-				18AE49102366C523004F05C5 /* info-dafa211.plist in Resources */,
 				18AE49112366C523004F05C5 /* LaunchScreen.storyboard in Resources */,
 				18AE49122366C523004F05C5 /* Assets.xcassets in Resources */,
 				18AE49132366C523004F05C5 /* Main.storyboard in Resources */,
