@@ -30,9 +30,6 @@ abstract_target 'shared' do
   
   target 'lt888' do
   end
-
-  target 'tiansheng' do
-  end
   
   target 'rbet999' do
   end
@@ -40,13 +37,7 @@ abstract_target 'shared' do
   target 'rbet999web' do
   end
 
-  target 'dafa211' do
-  end
-
   target 'jb3579' do
-  end
-  
-  target 'nanyang999' do
   end
 
   target 'x9977' do
