@@ -260,13 +260,13 @@
 		18BF345023488B0600564EBF /* info-bbinwh8.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E6ED31C22F3CF7600B4FB11 /* info-bbinwh8.plist */; };
 		1A8E387C70E53F64DA7D1E9F /* Pods_shared_lt888.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 289D1D80EB3CF07C5EC8C27F /* Pods_shared_lt888.framework */; };
 		2BF3BBECA983ED922A622285 /* Pods_shared_x9977.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C464553596B865C8CDC4D29 /* Pods_shared_x9977.framework */; };
-		2C1282769EB98FB0DD60652B /* Pods_shared_bbinwh8.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A063D685E80E347E338594E3 /* Pods_shared_bbinwh8.framework */; };
+		2C1282769EB98FB0DD60652B /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		2D9453393F0ACAF505AAA643 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		37F6BAE1E2D3F5AD0063B94C /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		3C6F29EB25FCB976DE4E3696 /* Pods_shared_coolbet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC256600A60CAC837CF2D4D9 /* Pods_shared_coolbet.framework */; };
 		4125F49A5AD0D7973047C5A6 /* Pods_shared_hb668vn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F90931A5831405A648AB0687 /* Pods_shared_hb668vn.framework */; };
 		454014276B8785E426BED592 /* Pods_shared_jb3579.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A7E368148A313A9CCBB8CD /* Pods_shared_jb3579.framework */; };
-		5210A9CF6E393B6F4F09BE88 /* Pods_shared_bbinwh8.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A063D685E80E347E338594E3 /* Pods_shared_bbinwh8.framework */; };
+		5210A9CF6E393B6F4F09BE88 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		5A2CB453241238260054399D /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCB259C22E07CA700AB6C30 /* String+Extension.swift */; };
 		5A2CB454241238260054399D /* UserTicketResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466D522DED3590080106D /* UserTicketResponse.swift */; };
 		5A2CB455241238260054399D /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD272D3D22EAF40400F806EF /* UIView+Extension.swift */; };
@@ -460,6 +460,7 @@
 		5AEBE3DE23D02EDD00D4BCFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD626C0622DC4B060024510D /* Main.storyboard */; };
 		5AEBE3E623D02F9F00D4BCFE /* info-cckf2020.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5AEBE3E523D02F9F00D4BCFE /* info-cckf2020.plist */; };
 		5AEBE3E723D02F9F00D4BCFE /* info-cckf2020.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5AEBE3E523D02F9F00D4BCFE /* info-cckf2020.plist */; };
+		5C101908B343C87CD87395B4 /* Pods_shared_suncity66.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 851439801B79C1423C5683F5 /* Pods_shared_suncity66.framework */; };
 		6A2E07EDE981AFF4C25AF023 /* Pods_shared_mgm668.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9820A80607E524E186E8DC7 /* Pods_shared_mgm668.framework */; };
 		79617972669424ECD1CF1B31 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		7C5F383E7FC15F04C3E93268 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
@@ -467,6 +468,7 @@
 		92B027389D30D21E3C926AB4 /* Pods_shared_rbet999.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD42BCE9D70060535464237 /* Pods_shared_rbet999.framework */; };
 		9FA94C7446A78E672C5F2FE2 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		A2AA20695A82FCC9CF763F25 /* Pods_shared_betwin899.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 715050D0E5E4684F3D6260DE /* Pods_shared_betwin899.framework */; };
+		A8304A05B3A9268B2A367214 /* Pods_shared_bbinwh8.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29F4A4E27EDEBEC4F43154C7 /* Pods_shared_bbinwh8.framework */; };
 		AD11AD0422F40679000E4AD2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD626C0422DC4B060024510D /* SettingsViewController.swift */; };
 		AD11AD0522F40680000E4AD2 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCB259C22E07CA700AB6C30 /* String+Extension.swift */; };
 		AD25DE3822F947E3009993A0 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD25DE3722F947E3009993A0 /* APIError.swift */; };
@@ -527,6 +529,36 @@
 		C49AB7DD4D21BAE153E821DD /* Pods_shared_cash888.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E43AD292369E7614BD1E3F64 /* Pods_shared_cash888.framework */; };
 		D6F9F056699BE04845EC043C /* Pods_shared_giauco39.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A6B3ABEDC117E0FC0325F8 /* Pods_shared_giauco39.framework */; };
 		F49E571E71115AFA20A8BFB6 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		F838063B248F438D001D1EA6 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCB259C22E07CA700AB6C30 /* String+Extension.swift */; };
+		F838063C248F438D001D1EA6 /* UserTicketResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466D522DED3590080106D /* UserTicketResponse.swift */; };
+		F838063D248F438D001D1EA6 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD272D3D22EAF40400F806EF /* UIView+Extension.swift */; };
+		F838063E248F438D001D1EA6 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB546652305123C000B837B /* CustomView.swift */; };
+		F838063F248F438D001D1EA6 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466CE22DDD3E40080106D /* AppViewModel.swift */; };
+		F8380640248F438D001D1EA6 /* SessionStatusResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466D322DED3180080106D /* SessionStatusResponse.swift */; };
+		F8380641248F438D001D1EA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD626C0022DC4B060024510D /* AppDelegate.swift */; };
+		F8380642248F438D001D1EA6 /* SharedWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD626C0222DC4B060024510D /* SharedWebViewController.swift */; };
+		F8380643248F438D001D1EA6 /* Dictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9E69E022F8073300F8C001 /* Dictionary+Extension.swift */; };
+		F8380644248F438D001D1EA6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD626C0422DC4B060024510D /* SettingsViewController.swift */; };
+		F8380645248F438D001D1EA6 /* SiteInfoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466C622DC82250080106D /* SiteInfoResponse.swift */; };
+		F8380646248F438D001D1EA6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD626C1422DC515A0024510D /* MainViewController.swift */; };
+		F8380647248F438D001D1EA6 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466B422DC65AC0080106D /* BaseViewController.swift */; };
+		F8380648248F438D001D1EA6 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466BA22DC68870080106D /* APIManager.swift */; };
+		F8380649248F438D001D1EA6 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD25DE3722F947E3009993A0 /* APIError.swift */; };
+		F838064A248F438D001D1EA6 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466BE22DC6AEA0080106D /* APIService.swift */; };
+		F838064B248F438D001D1EA6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466BC22DC69060080106D /* Constants.swift */; };
+		F838064C248F438D001D1EA6 /* BaseVeiwModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466D122DED00F0080106D /* BaseVeiwModel.swift */; };
+		F838064D248F438D001D1EA6 /* AppRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466C322DC81420080106D /* AppRepository.swift */; };
+		F838064E248F438D001D1EA6 /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9E69E422F8079D00F8C001 /* Data+Extension.swift */; };
+		F838064F248F438D001D1EA6 /* AppUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9E69DE22F7EC4C00F8C001 /* AppUtil.swift */; };
+		F8380651248F438D001D1EA6 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF466CC22DDC5A40080106D /* WebKit.framework */; };
+		F838065C248F438D001D1EA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD626C0B22DC4B080024510D /* LaunchScreen.storyboard */; };
+		F838065D248F438D001D1EA6 /* bbinwh8.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AC76C54241F238000C69B85 /* bbinwh8.storyboard */; };
+		F838065E248F438D001D1EA6 /* info-bbinwh8.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E6ED31C22F3CF7600B4FB11 /* info-bbinwh8.plist */; };
+		F838065F248F438D001D1EA6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18BF344823471BA000564EBF /* Localizable.strings */; };
+		F8380660248F438D001D1EA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD626C0922DC4B080024510D /* Assets.xcassets */; };
+		F8380661248F438D001D1EA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD626C0622DC4B060024510D /* Main.storyboard */; };
+		F8380669248F43DF001D1EA6 /* suncity66.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8380668248F43DF001D1EA6 /* suncity66.storyboard */; };
+		F838066D248F4819001D1EA6 /* info-suncity66.plist in Resources */ = {isa = PBXBuildFile; fileRef = F838066C248F4819001D1EA6 /* info-suncity66.plist */; };
 		F8C89C8623EAB655007A9DFD /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCB259C22E07CA700AB6C30 /* String+Extension.swift */; };
 		F8C89C8723EAB655007A9DFD /* UserTicketResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466D522DED3590080106D /* UserTicketResponse.swift */; };
 		F8C89C8823EAB655007A9DFD /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD272D3D22EAF40400F806EF /* UIView+Extension.swift */; };
@@ -559,6 +591,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0023BBC0965866D6E82D64E2 /* Pods-shared-suncity66.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-suncity66.release.xcconfig"; path = "Target Support Files/Pods-shared-suncity66/Pods-shared-suncity66.release.xcconfig"; sourceTree = "<group>"; };
 		09143F7EA4D11265DCB60939 /* Pods-shared-yhy888.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-yhy888.debug.xcconfig"; path = "Target Support Files/Pods-shared-yhy888/Pods-shared-yhy888.debug.xcconfig"; sourceTree = "<group>"; };
 		0B2DAF0F532BF38B7910FFA8 /* Pods-shared-lt888.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-lt888.debug.xcconfig"; path = "Target Support Files/Pods-shared-lt888/Pods-shared-lt888.debug.xcconfig"; sourceTree = "<group>"; };
 		0E1DFCEA22F4281E002C38C7 /* info-coolbet.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "info-coolbet.plist"; sourceTree = "<group>"; };
@@ -567,6 +600,7 @@
 		0FD3937995044FD6167F8044 /* Pods-shared-coolbet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-coolbet.debug.xcconfig"; path = "Target Support Files/Pods-shared-coolbet/Pods-shared-coolbet.debug.xcconfig"; sourceTree = "<group>"; };
 		11709BE109DC6A3585C1D779 /* Pods-shared-nanyang999.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-nanyang999.debug.xcconfig"; path = "Target Support Files/Pods-shared-nanyang999/Pods-shared-nanyang999.debug.xcconfig"; sourceTree = "<group>"; };
 		13D6F23DD334D3BDF02D1BAA /* Pods-shared-yhy888.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-yhy888.release.xcconfig"; path = "Target Support Files/Pods-shared-yhy888/Pods-shared-yhy888.release.xcconfig"; sourceTree = "<group>"; };
+		15DD48B72BB223ECBFEC8BEA /* Pods-shared-suncity66.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-suncity66.debug.xcconfig"; path = "Target Support Files/Pods-shared-suncity66/Pods-shared-suncity66.debug.xcconfig"; sourceTree = "<group>"; };
 		18053AD9237525DD00BC689F /* vn999.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vn999.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18053ADD23753F5300BC689F /* info-vn999.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-vn999.plist"; sourceTree = "<group>"; };
 		18053B2E237549C100BC689F /* jb3579.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jb3579.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -597,6 +631,7 @@
 		239CBDB8E6927312ABFDB929 /* Pods-shared-hb668vn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-hb668vn.debug.xcconfig"; path = "Target Support Files/Pods-shared-hb668vn/Pods-shared-hb668vn.debug.xcconfig"; sourceTree = "<group>"; };
 		26A7B80415D947A6DC38B0D5 /* Pods-shared-rbet999.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-rbet999.release.xcconfig"; path = "Target Support Files/Pods-shared-rbet999/Pods-shared-rbet999.release.xcconfig"; sourceTree = "<group>"; };
 		289D1D80EB3CF07C5EC8C27F /* Pods_shared_lt888.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shared_lt888.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29F4A4E27EDEBEC4F43154C7 /* Pods_shared_bbinwh8.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shared_bbinwh8.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BC1ABFA0C3C8E09C69308D0 /* Pods-shared-rbet999web.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-rbet999web.release.xcconfig"; path = "Target Support Files/Pods-shared-rbet999web/Pods-shared-rbet999web.release.xcconfig"; sourceTree = "<group>"; };
 		2D3ABF2D4029588C9C48ADC6 /* Pods-shared-tiansheng.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-tiansheng.release.xcconfig"; path = "Target Support Files/Pods-shared-tiansheng/Pods-shared-tiansheng.release.xcconfig"; sourceTree = "<group>"; };
 		2EC0F3AEC7E2B167102C9B17 /* Pods-shared-mgm668.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-mgm668.debug.xcconfig"; path = "Target Support Files/Pods-shared-mgm668/Pods-shared-mgm668.debug.xcconfig"; sourceTree = "<group>"; };
@@ -637,6 +672,7 @@
 		715050D0E5E4684F3D6260DE /* Pods_shared_betwin899.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shared_betwin899.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7778EAF285220A19362A94F5 /* Pods-shared-cash888.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-cash888.debug.xcconfig"; path = "Target Support Files/Pods-shared-cash888/Pods-shared-cash888.debug.xcconfig"; sourceTree = "<group>"; };
 		7BD42BCE9D70060535464237 /* Pods_shared_rbet999.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shared_rbet999.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		851439801B79C1423C5683F5 /* Pods_shared_suncity66.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shared_suncity66.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C464553596B865C8CDC4D29 /* Pods_shared_x9977.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shared_x9977.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		919DEA819D5C2374D98407FF /* Pods-shared-base.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-base.debug.xcconfig"; path = "Target Support Files/Pods-shared-base/Pods-shared-base.debug.xcconfig"; sourceTree = "<group>"; };
 		9281A2665F75D91F2AB0D422 /* Pods_shared_dafa211.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shared_dafa211.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -647,7 +683,6 @@
 		9DA9F478E42FB4508E43A002 /* Pods-shared-jb3579.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-jb3579.debug.xcconfig"; path = "Target Support Files/Pods-shared-jb3579/Pods-shared-jb3579.debug.xcconfig"; sourceTree = "<group>"; };
 		9E0FC31C041B7F3A34711C21 /* Pods_shared_tiansheng.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shared_tiansheng.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FB49726089551D8158EB169 /* Pods-shared-rbet999.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-rbet999.debug.xcconfig"; path = "Target Support Files/Pods-shared-rbet999/Pods-shared-rbet999.debug.xcconfig"; sourceTree = "<group>"; };
-		A063D685E80E347E338594E3 /* Pods_shared_bbinwh8.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shared_bbinwh8.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD25DE3722F947E3009993A0 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 		AD272D3722E9980800F806EF /* bbinwh8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bbinwh8.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD272D3D22EAF40400F806EF /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
@@ -688,6 +723,9 @@
 		D38903A51531E7ECC76ACEA0 /* Pods-shared-rbet999web.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-rbet999web.debug.xcconfig"; path = "Target Support Files/Pods-shared-rbet999web/Pods-shared-rbet999web.debug.xcconfig"; sourceTree = "<group>"; };
 		E43AD292369E7614BD1E3F64 /* Pods_shared_cash888.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shared_cash888.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E630E9DCCC561A6C6BE4F089 /* Pods-shared-base.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-base.release.xcconfig"; path = "Target Support Files/Pods-shared-base/Pods-shared-base.release.xcconfig"; sourceTree = "<group>"; };
+		F8380666248F438D001D1EA6 /* 太阳城集团.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "太阳城集团.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8380668248F43DF001D1EA6 /* suncity66.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = suncity66.storyboard; sourceTree = "<group>"; };
+		F838066C248F4819001D1EA6 /* info-suncity66.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-suncity66.plist"; sourceTree = "<group>"; };
 		F8C89CAA23EAB655007A9DFD /* 凯斯娱乐城.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "凯斯娱乐城.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8C89CAC23EAB723007A9DFD /* info-cash888.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-cash888.plist"; sourceTree = "<group>"; };
 		F90931A5831405A648AB0687 /* Pods_shared_hb668vn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shared_hb668vn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -848,8 +886,9 @@
 				BD4FCEED9915718007CA5EC7 /* (null) in Frameworks */,
 				F49E571E71115AFA20A8BFB6 /* (null) in Frameworks */,
 				2D9453393F0ACAF505AAA643 /* (null) in Frameworks */,
-				2C1282769EB98FB0DD60652B /* Pods_shared_bbinwh8.framework in Frameworks */,
-				5210A9CF6E393B6F4F09BE88 /* Pods_shared_bbinwh8.framework in Frameworks */,
+				2C1282769EB98FB0DD60652B /* (null) in Frameworks */,
+				5210A9CF6E393B6F4F09BE88 /* (null) in Frameworks */,
+				A8304A05B3A9268B2A367214 /* Pods_shared_bbinwh8.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -861,6 +900,15 @@
 				7C5F383E7FC15F04C3E93268 /* (null) in Frameworks */,
 				0F1BA8DC27AE1B9D02D7B2A3 /* (null) in Frameworks */,
 				108400B8522EEA9D47736C66 /* Pods_shared_base.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8380650248F438D001D1EA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8380651248F438D001D1EA6 /* WebKit.framework in Frameworks */,
+				5C101908B343C87CD87395B4 /* Pods_shared_suncity66.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -891,6 +939,7 @@
 				5A471462243EFEFC00B049F2 /* mgm668.storyboard */,
 				5A471494243F027700B049F2 /* yhy888.storyboard */,
 				5A79334C2450177F00E72A82 /* mekong68vn.storyboard */,
+				F8380668248F43DF001D1EA6 /* suncity66.storyboard */,
 			);
 			path = LaunchScreenSet;
 			sourceTree = "<group>";
@@ -943,6 +992,7 @@
 				5A47145E243EFBE200B049F2 /* 美高梅.app */,
 				5A471490243F016300B049F2 /* 银河.app */,
 				5A79334A2450171800E72A82 /* SMK.app */,
+				F8380666248F438D001D1EA6 /* 太阳城集团.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -960,7 +1010,6 @@
 				ADF466B922DC686F0080106D /* Service */,
 				AD9E69DD22F7EB6800F8C001 /* Util */,
 				AD626C0B22DC4B080024510D /* LaunchScreen.storyboard */,
-				AD626C0622DC4B060024510D /* Main.storyboard */,
 				AD626C0922DC4B080024510D /* Assets.xcassets */,
 				0E6ED31C22F3CF7600B4FB11 /* info-bbinwh8.plist */,
 				0E1DFCEA22F4281E002C38C7 /* info-coolbet.plist */,
@@ -980,6 +1029,7 @@
 				5A471460243EFC5C00B049F2 /* info-mgm668.plist */,
 				5A471492243F01AE00B049F2 /* info-yhy888.plist */,
 				5A79334E245017FD00E72A82 /* info-mekong68vn.plist */,
+				F838066C248F4819001D1EA6 /* info-suncity66.plist */,
 				18BF344823471BA000564EBF /* Localizable.strings */,
 			);
 			path = wh8app;
@@ -988,6 +1038,7 @@
 		AD9E69DD22F7EB6800F8C001 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				AD626C0622DC4B060024510D /* Main.storyboard */,
 				AD9E69DE22F7EC4C00F8C001 /* AppUtil.swift */,
 				AD9E69E422F8079D00F8C001 /* Data+Extension.swift */,
 				AD9E69E022F8073300F8C001 /* Dictionary+Extension.swift */,
@@ -1092,6 +1143,8 @@
 				13D6F23DD334D3BDF02D1BAA /* Pods-shared-yhy888.release.xcconfig */,
 				C3840FE37690AE38628F7C7B /* Pods-shared-bbinwh8.debug.xcconfig */,
 				F9BC9BF3330AEC2945E2BCC8 /* Pods-shared-bbinwh8.release.xcconfig */,
+				15DD48B72BB223ECBFEC8BEA /* Pods-shared-suncity66.debug.xcconfig */,
+				0023BBC0965866D6E82D64E2 /* Pods-shared-suncity66.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -1116,8 +1169,9 @@
 				B6C3CA82C4ED380839B467C3 /* Pods_shared_rbet999web.framework */,
 				F90931A5831405A648AB0687 /* Pods_shared_hb668vn.framework */,
 				F9820A80607E524E186E8DC7 /* Pods_shared_mgm668.framework */,
-				A063D685E80E347E338594E3 /* Pods_shared_bbinwh8.framework */,
 				55828A93DA9C19DC8CF12DD6 /* Pods_shared_yhy888.framework */,
+				851439801B79C1423C5683F5 /* Pods_shared_suncity66.framework */,
+				29F4A4E27EDEBEC4F43154C7 /* Pods_shared_bbinwh8.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1442,6 +1496,25 @@
 			productReference = AD626BFD22DC4B060024510D /* base.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F8380638248F438D001D1EA6 /* suncity66 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8380663248F438D001D1EA6 /* Build configuration list for PBXNativeTarget "suncity66" */;
+			buildPhases = (
+				F8380639248F438D001D1EA6 /* [CP] Check Pods Manifest.lock */,
+				F838063A248F438D001D1EA6 /* Sources */,
+				F8380650248F438D001D1EA6 /* Frameworks */,
+				F838065B248F438D001D1EA6 /* Resources */,
+				F8380662248F438D001D1EA6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = suncity66;
+			productName = "tetrapods-ios";
+			productReference = F8380666248F438D001D1EA6 /* 太阳城集团.app */;
+			productType = "com.apple.product-type.application";
+		};
 		F8C89C8323EAB655007A9DFD /* cash888 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8C89CA723EAB655007A9DFD /* Build configuration list for PBXNativeTarget "cash888" */;
@@ -1509,6 +1582,7 @@
 				5A471432243EFBE200B049F2 /* mgm668 */,
 				5A471464243F016300B049F2 /* yhy888 */,
 				5A79331D2450171800E72A82 /* mekong68vn */,
+				F8380638248F438D001D1EA6 /* suncity66 */,
 			);
 		};
 /* End PBXProject section */
@@ -1743,6 +1817,21 @@
 				AD626C0A22DC4B080024510D /* Assets.xcassets in Resources */,
 				AD626C0822DC4B060024510D /* Main.storyboard in Resources */,
 				18BF344E23488AFF00564EBF /* info-base.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F838065B248F438D001D1EA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F838065C248F438D001D1EA6 /* LaunchScreen.storyboard in Resources */,
+				F838065D248F438D001D1EA6 /* bbinwh8.storyboard in Resources */,
+				F838066D248F4819001D1EA6 /* info-suncity66.plist in Resources */,
+				F838065E248F438D001D1EA6 /* info-bbinwh8.plist in Resources */,
+				F838065F248F438D001D1EA6 /* Localizable.strings in Resources */,
+				F8380660248F438D001D1EA6 /* Assets.xcassets in Resources */,
+				F8380661248F438D001D1EA6 /* Main.storyboard in Resources */,
+				F8380669248F43DF001D1EA6 /* suncity66.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2331,6 +2420,45 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-shared-cckf2020/Pods-shared-cckf2020-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F8380639248F438D001D1EA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-shared-suncity66-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8380662248F438D001D1EA6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-shared-suncity66/Pods-shared-suncity66-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-shared-suncity66/Pods-shared-suncity66-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-shared-suncity66/Pods-shared-suncity66-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		FFAE7995CB0F63C22A968F58 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -2825,6 +2953,34 @@
 				ADF466BD22DC69060080106D /* Constants.swift in Sources */,
 				ADF466D222DED00F0080106D /* BaseVeiwModel.swift in Sources */,
 				ADF466C422DC81420080106D /* AppRepository.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F838063A248F438D001D1EA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F838063B248F438D001D1EA6 /* String+Extension.swift in Sources */,
+				F838063C248F438D001D1EA6 /* UserTicketResponse.swift in Sources */,
+				F838063D248F438D001D1EA6 /* UIView+Extension.swift in Sources */,
+				F838063E248F438D001D1EA6 /* CustomView.swift in Sources */,
+				F838063F248F438D001D1EA6 /* AppViewModel.swift in Sources */,
+				F8380640248F438D001D1EA6 /* SessionStatusResponse.swift in Sources */,
+				F8380641248F438D001D1EA6 /* AppDelegate.swift in Sources */,
+				F8380642248F438D001D1EA6 /* SharedWebViewController.swift in Sources */,
+				F8380643248F438D001D1EA6 /* Dictionary+Extension.swift in Sources */,
+				F8380644248F438D001D1EA6 /* SettingsViewController.swift in Sources */,
+				F8380645248F438D001D1EA6 /* SiteInfoResponse.swift in Sources */,
+				F8380646248F438D001D1EA6 /* MainViewController.swift in Sources */,
+				F8380647248F438D001D1EA6 /* BaseViewController.swift in Sources */,
+				F8380648248F438D001D1EA6 /* APIManager.swift in Sources */,
+				F8380649248F438D001D1EA6 /* APIError.swift in Sources */,
+				F838064A248F438D001D1EA6 /* APIService.swift in Sources */,
+				F838064B248F438D001D1EA6 /* Constants.swift in Sources */,
+				F838064C248F438D001D1EA6 /* BaseVeiwModel.swift in Sources */,
+				F838064D248F438D001D1EA6 /* AppRepository.swift in Sources */,
+				F838064E248F438D001D1EA6 /* Data+Extension.swift in Sources */,
+				F838064F248F438D001D1EA6 /* AppUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3757,6 +3913,50 @@
 			};
 			name = Release;
 		};
+		F8380664248F438D001D1EA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15DD48B72BB223ECBFEC8BEA /* Pods-shared-suncity66.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = suncity66;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CV66AP2S44;
+				INFOPLIST_FILE = "$(SRCROOT)/wh8app/info-suncity66.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.8;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PROD";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suncity66.app;
+				PRODUCT_NAME = "太阳城集团";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8380665248F438D001D1EA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0023BBC0965866D6E82D64E2 /* Pods-shared-suncity66.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = suncity66;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CV66AP2S44;
+				INFOPLIST_FILE = "$(SRCROOT)/wh8app/info-suncity66.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.8;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PROD";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suncity66.app;
+				PRODUCT_NAME = "太阳城集团";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		F8C89CA823EAB655007A9DFD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7778EAF285220A19362A94F5 /* Pods-shared-cash888.debug.xcconfig */;
@@ -3964,6 +4164,15 @@
 			buildConfigurations = (
 				AD626C1222DC4B080024510D /* Debug */,
 				AD626C1322DC4B080024510D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8380663248F438D001D1EA6 /* Build configuration list for PBXNativeTarget "suncity66" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8380664248F438D001D1EA6 /* Debug */,
+				F8380665248F438D001D1EA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

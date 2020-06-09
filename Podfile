@@ -64,4 +64,7 @@ abstract_target 'shared' do
   target 'yhy888' do
   end
 
+  target 'suncity66' do
+  end
+
 end
