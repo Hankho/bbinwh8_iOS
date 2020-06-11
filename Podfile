@@ -28,9 +28,6 @@ abstract_target 'shared' do
   target 'coolbet' do
   end
   
-  target 'lt888' do
-  end
-  
   target 'rbet999' do
   end
  
