@@ -29,11 +29,11 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.suncity66.app</string>
+				<string>com3.suncity66.app</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>太阳城集团</string>
+				<string>SunCity</string>
 				<key>bundle-version</key>
 				<string>0.8</string>
 			</dict>

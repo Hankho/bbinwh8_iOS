@@ -700,7 +700,7 @@
 		D38903A51531E7ECC76ACEA0 /* Pods-shared-rbet999web.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-rbet999web.debug.xcconfig"; path = "Target Support Files/Pods-shared-rbet999web/Pods-shared-rbet999web.debug.xcconfig"; sourceTree = "<group>"; };
 		E43AD292369E7614BD1E3F64 /* Pods_shared_cash888.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shared_cash888.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E630E9DCCC561A6C6BE4F089 /* Pods-shared-base.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-base.release.xcconfig"; path = "Target Support Files/Pods-shared-base/Pods-shared-base.release.xcconfig"; sourceTree = "<group>"; };
-		F8380666248F438D001D1EA6 /* 太阳城.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "太阳城.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8380666248F438D001D1EA6 /* SunCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8380668248F43DF001D1EA6 /* suncity66.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = suncity66.storyboard; sourceTree = "<group>"; };
 		F838066C248F4819001D1EA6 /* info-suncity66.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-suncity66.plist"; sourceTree = "<group>"; };
 		F8C89CAA23EAB655007A9DFD /* 凯斯娱乐城.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "凯斯娱乐城.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -968,7 +968,7 @@
 				5A47145E243EFBE200B049F2 /* 美高梅.app */,
 				5A471490243F016300B049F2 /* 银河.app */,
 				5A79334A2450171800E72A82 /* SMK.app */,
-				F8380666248F438D001D1EA6 /* 太阳城.app */,
+				F8380666248F438D001D1EA6 /* SunCity.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1483,7 +1483,7 @@
 			);
 			name = suncity66;
 			productName = "tetrapods-ios";
-			productReference = F8380666248F438D001D1EA6 /* 太阳城.app */;
+			productReference = F8380666248F438D001D1EA6 /* SunCity.app */;
 			productType = "com.apple.product-type.application";
 		};
 		F8C89C8323EAB655007A9DFD /* cash888 */ = {
@@ -3839,8 +3839,8 @@
 				);
 				MARKETING_VERSION = 0.8;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PROD";
-				PRODUCT_BUNDLE_IDENTIFIER = com2.suncity66.app;
-				PRODUCT_NAME = "太阳城";
+				PRODUCT_BUNDLE_IDENTIFIER = com3.suncity66.app;
+				PRODUCT_NAME = SunCity;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -3861,8 +3861,8 @@
 				);
 				MARKETING_VERSION = 0.8;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PROD";
-				PRODUCT_BUNDLE_IDENTIFIER = com2.suncity66.app;
-				PRODUCT_NAME = "太阳城";
+				PRODUCT_BUNDLE_IDENTIFIER = com3.suncity66.app;
+				PRODUCT_NAME = SunCity;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
