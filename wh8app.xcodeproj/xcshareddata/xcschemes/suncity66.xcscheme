@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F8380638248F438D001D1EA6"
-               BuildableName = "&#x592a;&#x9633;&#x57ce;.app"
+               BuildableName = "&#x592a;&#x9633;.app"
                BlueprintName = "suncity66"
                ReferencedContainer = "container:wh8app.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F8380638248F438D001D1EA6"
-            BuildableName = "&#x592a;&#x9633;&#x57ce;.app"
+            BuildableName = "&#x592a;&#x9633;.app"
             BlueprintName = "suncity66"
             ReferencedContainer = "container:wh8app.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F8380638248F438D001D1EA6"
-            BuildableName = "&#x592a;&#x9633;&#x57ce;.app"
+            BuildableName = "&#x592a;&#x9633;.app"
             BlueprintName = "suncity66"
             ReferencedContainer = "container:wh8app.xcodeproj">
          </BuildableReference>
