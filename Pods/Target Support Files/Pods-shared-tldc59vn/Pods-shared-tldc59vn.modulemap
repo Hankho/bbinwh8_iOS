@@ -1,0 +1,6 @@
+framework module Pods_shared_tldc59vn {
+  umbrella header "Pods-shared-tldc59vn-umbrella.h"
+
+  export *
+  module * { export * }
+}
