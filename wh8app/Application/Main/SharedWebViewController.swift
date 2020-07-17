@@ -83,7 +83,7 @@ class SharedWebViewController: BaseViewController {
         
         // https://stackoverflow.com/questions/47309048/enable-cross-site-tracking-in-wkwebview
         // A private function to fix the issue that third party cookie gets blocked by WKWebView
-        wkWebView.configuration.processPool.perform(Selector("_setCookieAcceptPolicy:"), with: HTTPCookie.AcceptPolicy.always)
+        wkWebView.configuration.processPool.perform(Selector(("_setCookieAcceptPolicy:")), with: HTTPCookie.AcceptPolicy.always)
         
         // Set WKWebView delegate
         wkWebView.uiDelegate = self

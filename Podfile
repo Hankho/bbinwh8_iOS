@@ -25,9 +25,6 @@ abstract_target 'shared' do
   target 'bbinwh8' do
   end
   
-  target 'coolbet' do
-  end
-  
   target 'rbet999' do
   end
  
@@ -66,5 +63,7 @@ abstract_target 'shared' do
 
   target 'bbinwh8inr' do
   end
+
+
 
 end
