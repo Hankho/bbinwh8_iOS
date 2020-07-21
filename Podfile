@@ -67,4 +67,7 @@ abstract_target 'shared' do
   target 'tldc59vn' do
   end
 
+  target 'bfyl55888' do
+  end
+
 end
