@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5A3AEE6224C19D3400559EBB"
-               BuildableName = "tldc59vn.app"
+               BuildableName = "&#x5929;&#x9f99;.app"
                BlueprintName = "tldc59vn"
                ReferencedContainer = "container:wh8app.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5A3AEE6224C19D3400559EBB"
-            BuildableName = "tldc59vn.app"
+            BuildableName = "&#x5929;&#x9f99;.app"
             BlueprintName = "tldc59vn"
             ReferencedContainer = "container:wh8app.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5A3AEE6224C19D3400559EBB"
-            BuildableName = "tldc59vn.app"
+            BuildableName = "&#x5929;&#x9f99;.app"
             BlueprintName = "tldc59vn"
             ReferencedContainer = "container:wh8app.xcodeproj">
          </BuildableReference>
