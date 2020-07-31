@@ -72,5 +72,8 @@ abstract_target 'shared' do
   
   target 'amgwhlee888' do
   end
+  
+  target 'yh7669' do
+  end
 
 end
