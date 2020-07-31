@@ -677,7 +677,7 @@
 		5A0D3E8C24C6B87C00CABD58 /* bfyl55888.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = bfyl55888.storyboard; sourceTree = "<group>"; };
 		5A2CB47A241238260054399D /* GC39.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GC39.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A2CB47C241239000054399D /* info-giauco39.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-giauco39.plist"; sourceTree = "<group>"; };
-		5A3AEE9124C19D3500559EBB /* TienLong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TienLong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A3AEE9124C19D3500559EBB /* Thien Long.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Thien Long.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A3AEE9324C19DCB00559EBB /* info-tldc59vn.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-tldc59vn.plist"; sourceTree = "<group>"; };
 		5A3AEE9524C19E5700559EBB /* tldc59vn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = tldc59vn.storyboard; sourceTree = "<group>"; };
 		5A47145E243EFBE200B049F2 /* 美高梅.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "美高梅.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1075,7 +1075,7 @@
 				5A79334A2450171800E72A82 /* SMK.app */,
 				F8380666248F438D001D1EA6 /* 太阳.app */,
 				5A8137E424AB1810000313D6 /* BETWIN.app */,
-				5A3AEE9124C19D3500559EBB /* TienLong.app */,
+				5A3AEE9124C19D3500559EBB /* Thien Long.app */,
 				5A0D3E8824C6B71500CABD58 /* 百富娱乐.app */,
 				5A4F29DA24D3C44800724E69 /* AMG.app */,
 			);
@@ -1445,7 +1445,7 @@
 			);
 			name = tldc59vn;
 			productName = "tetrapods-ios";
-			productReference = 5A3AEE9124C19D3500559EBB /* TienLong.app */;
+			productReference = 5A3AEE9124C19D3500559EBB /* Thien Long.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5A471432243EFBE200B049F2 /* mgm668 */ = {
@@ -3687,7 +3687,7 @@
 				MARKETING_VERSION = 0.8;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PROD";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tldc59vn.app;
-				PRODUCT_NAME = TienLong;
+				PRODUCT_NAME = "Thien Long";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -3709,7 +3709,7 @@
 				MARKETING_VERSION = 0.8;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PROD";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tldc59vn.app;
-				PRODUCT_NAME = TienLong;
+				PRODUCT_NAME = "Thien Long";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
