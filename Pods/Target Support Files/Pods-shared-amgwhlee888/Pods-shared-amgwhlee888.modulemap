@@ -1,0 +1,6 @@
+framework module Pods_shared_amgwhlee888 {
+  umbrella header "Pods-shared-amgwhlee888-umbrella.h"
+
+  export *
+  module * { export * }
+}
