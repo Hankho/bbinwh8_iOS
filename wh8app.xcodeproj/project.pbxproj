@@ -686,7 +686,7 @@
 		5A471490243F016300B049F2 /* 银河.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "银河.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A471492243F01AE00B049F2 /* info-yhy888.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-yhy888.plist"; sourceTree = "<group>"; };
 		5A471494243F027700B049F2 /* yhy888.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = yhy888.storyboard; sourceTree = "<group>"; };
-		5A4F29DA24D3C44800724E69 /* AMG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4F29DA24D3C44800724E69 /* A M G.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "A M G.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A4F29DC24D3C59200724E69 /* info-amgwhlee888.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-amgwhlee888.plist"; sourceTree = "<group>"; };
 		5A4F29DE24D3C66B00724E69 /* amgwhlee888.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = amgwhlee888.storyboard; sourceTree = "<group>"; };
 		5A4F2A1324D3EEC300724E69 /* yh7669.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = yh7669.storyboard; sourceTree = "<group>"; };
@@ -1077,7 +1077,7 @@
 				5A8137E424AB1810000313D6 /* BETWIN.app */,
 				5A3AEE9124C19D3500559EBB /* Thien Long.app */,
 				5A0D3E8824C6B71500CABD58 /* 百富娱乐.app */,
-				5A4F29DA24D3C44800724E69 /* AMG.app */,
+				5A4F29DA24D3C44800724E69 /* A M G.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1502,7 +1502,7 @@
 			);
 			name = amgwhlee888;
 			productName = "tetrapods-ios";
-			productReference = 5A4F29DA24D3C44800724E69 /* AMG.app */;
+			productReference = 5A4F29DA24D3C44800724E69 /* A M G.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5A79331D2450171800E72A82 /* mekong68vn */ = {
@@ -3818,8 +3818,8 @@
 				);
 				MARKETING_VERSION = 0.8;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PROD";
-				PRODUCT_BUNDLE_IDENTIFIER = com.amgwhlee888.app;
-				PRODUCT_NAME = AMG;
+				PRODUCT_BUNDLE_IDENTIFIER = com2.amgwhlee888.app;
+				PRODUCT_NAME = "A M G";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -3840,8 +3840,8 @@
 				);
 				MARKETING_VERSION = 0.8;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PROD";
-				PRODUCT_BUNDLE_IDENTIFIER = com.amgwhlee888.app;
-				PRODUCT_NAME = AMG;
+				PRODUCT_BUNDLE_IDENTIFIER = com2.amgwhlee888.app;
+				PRODUCT_NAME = "A M G";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
