@@ -639,7 +639,7 @@
 		187C9D13233B33DD00030CED /* rbet999.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rbet999.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18907BEF238E1F0400797DD2 /* 金沙会.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "金沙会.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18907BF1238E20A500797DD2 /* info-x9977.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-x9977.plist"; sourceTree = "<group>"; };
-		18907C6A2397813B00797DD2 /* 稳盈娱乐城.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "稳盈娱乐城.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18907C6A2397813B00797DD2 /* 稳盈..app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "稳盈..app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18907C6C239781A800797DD2 /* info-betwin899.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-betwin899.plist"; sourceTree = "<group>"; };
 		18A2292B23488FA600F2873E /* info-rbet999.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-rbet999.plist"; sourceTree = "<group>"; };
 		18AE48C7234DC72B004F05C5 /* rbet999web.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rbet999web.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -686,7 +686,7 @@
 		5A471490243F016300B049F2 /* 银河.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "银河.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A471492243F01AE00B049F2 /* info-yhy888.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-yhy888.plist"; sourceTree = "<group>"; };
 		5A471494243F027700B049F2 /* yhy888.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = yhy888.storyboard; sourceTree = "<group>"; };
-		5A4F29DA24D3C44800724E69 /* A M G.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "A M G.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4F29DA24D3C44800724E69 /* AMG娱乐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AMG娱乐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A4F29DC24D3C59200724E69 /* info-amgwhlee888.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-amgwhlee888.plist"; sourceTree = "<group>"; };
 		5A4F29DE24D3C66B00724E69 /* amgwhlee888.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = amgwhlee888.storyboard; sourceTree = "<group>"; };
 		5A4F2A1324D3EEC300724E69 /* yh7669.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = yh7669.storyboard; sourceTree = "<group>"; };
@@ -779,7 +779,7 @@
 		F8380666248F438D001D1EA6 /* 太阳.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "太阳.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8380668248F43DF001D1EA6 /* suncity66.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = suncity66.storyboard; sourceTree = "<group>"; };
 		F838066C248F4819001D1EA6 /* info-suncity66.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-suncity66.plist"; sourceTree = "<group>"; };
-		F8C89CAA23EAB655007A9DFD /* 凯斯娱乐城.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "凯斯娱乐城.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C89CAA23EAB655007A9DFD /* 凯斯.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "凯斯.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8C89CAC23EAB723007A9DFD /* info-cash888.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-cash888.plist"; sourceTree = "<group>"; };
 		F90931A5831405A648AB0687 /* Pods_shared_hb668vn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shared_hb668vn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9820A80607E524E186E8DC7 /* Pods_shared_mgm668.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shared_mgm668.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1065,9 +1065,9 @@
 				18AE49182366C523004F05C5 /* 7乐.app */,
 				18053B2E237549C100BC689F /* jb3579.app */,
 				18907BEF238E1F0400797DD2 /* 金沙会.app */,
-				18907C6A2397813B00797DD2 /* 稳盈娱乐城.app */,
+				18907C6A2397813B00797DD2 /* 稳盈..app */,
 				5AEBE3E323D02EDD00D4BCFE /* CCK.app */,
-				F8C89CAA23EAB655007A9DFD /* 凯斯娱乐城.app */,
+				F8C89CAA23EAB655007A9DFD /* 凯斯.app */,
 				5A2CB47A241238260054399D /* GC39.app */,
 				5A8E83B9242DEE0100A637C6 /* HB68.app */,
 				5A47145E243EFBE200B049F2 /* 美高梅.app */,
@@ -1077,7 +1077,7 @@
 				5A8137E424AB1810000313D6 /* BETWIN.app */,
 				5A3AEE9124C19D3500559EBB /* Thien Long.app */,
 				5A0D3E8824C6B71500CABD58 /* 百富娱乐.app */,
-				5A4F29DA24D3C44800724E69 /* A M G.app */,
+				5A4F29DA24D3C44800724E69 /* AMG娱乐.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1350,7 +1350,7 @@
 			);
 			name = betwin899;
 			productName = "tetrapods-ios";
-			productReference = 18907C6A2397813B00797DD2 /* 稳盈娱乐城.app */;
+			productReference = 18907C6A2397813B00797DD2 /* 稳盈..app */;
 			productType = "com.apple.product-type.application";
 		};
 		18AE48A2234DC72B004F05C5 /* rbet999web */ = {
@@ -1502,7 +1502,7 @@
 			);
 			name = amgwhlee888;
 			productName = "tetrapods-ios";
-			productReference = 5A4F29DA24D3C44800724E69 /* A M G.app */;
+			productReference = 5A4F29DA24D3C44800724E69 /* AMG娱乐.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5A79331D2450171800E72A82 /* mekong68vn */ = {
@@ -1652,7 +1652,7 @@
 			);
 			name = cash888;
 			productName = "tetrapods-ios";
-			productReference = F8C89CAA23EAB655007A9DFD /* 凯斯娱乐城.app */;
+			productReference = F8C89CAA23EAB655007A9DFD /* 凯斯.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -3455,7 +3455,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6A88FB859475726156F87F89 /* Pods-shared-betwin899.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = betwin899;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CV66AP2S44;
 				INFOPLIST_FILE = "$(SRCROOT)/wh8app/info-betwin899.plist";
@@ -3466,8 +3466,8 @@
 				);
 				MARKETING_VERSION = 0.8;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PROD";
-				PRODUCT_BUNDLE_IDENTIFIER = com.betwin899.app;
-				PRODUCT_NAME = "稳盈娱乐城";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosbetwin899.app;
+				PRODUCT_NAME = "稳盈.";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -3477,7 +3477,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 55BEE5090FAECFA5830B0DDC /* Pods-shared-betwin899.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = betwin899;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CV66AP2S44;
 				INFOPLIST_FILE = "$(SRCROOT)/wh8app/info-betwin899.plist";
@@ -3488,8 +3488,8 @@
 				);
 				MARKETING_VERSION = 0.8;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PROD";
-				PRODUCT_BUNDLE_IDENTIFIER = com.betwin899.app;
-				PRODUCT_NAME = "稳盈娱乐城";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosbetwin899.app;
+				PRODUCT_NAME = "稳盈.";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -3818,8 +3818,8 @@
 				);
 				MARKETING_VERSION = 0.8;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PROD";
-				PRODUCT_BUNDLE_IDENTIFIER = com2.amgwhlee888.app;
-				PRODUCT_NAME = "A M G";
+				PRODUCT_BUNDLE_IDENTIFIER = com3.amgwhlee888.app;
+				PRODUCT_NAME = "AMG娱乐";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -3840,8 +3840,8 @@
 				);
 				MARKETING_VERSION = 0.8;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PROD";
-				PRODUCT_BUNDLE_IDENTIFIER = com2.amgwhlee888.app;
-				PRODUCT_NAME = "A M G";
+				PRODUCT_BUNDLE_IDENTIFIER = com3.amgwhlee888.app;
+				PRODUCT_NAME = "AMG娱乐";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -4291,8 +4291,8 @@
 				);
 				MARKETING_VERSION = 0.8;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PROD";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cash888.app;
-				PRODUCT_NAME = "凯斯娱乐城";
+				PRODUCT_BUNDLE_IDENTIFIER = com1.cash888.app;
+				PRODUCT_NAME = "凯斯";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -4314,8 +4314,8 @@
 				);
 				MARKETING_VERSION = 0.8;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PROD";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cash888.app;
-				PRODUCT_NAME = "凯斯娱乐城";
+				PRODUCT_BUNDLE_IDENTIFIER = com1.cash888.app;
+				PRODUCT_NAME = "凯斯";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
