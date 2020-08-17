@@ -12,14 +12,14 @@ BUNDLE_SHORT_VERSION=$(/usr/libexec/PlistBuddy -c "print CFBundleShortVersionStr
 BUNDLE_VERSION=$(/usr/libexec/PlistBuddy -c "print CFBundleVersion" "${PROJECT_INFOPLIST_PATH}")
 
 # 配置 .plist 的參數
-REPLACE_TARGET="1,\$s/Target/$1/g"
-REPLACE_TARGET_NAME="1,\$s/APPName/$2/g"
-REPLACE_TARGET_VERSION="1,\$s/APPVersion/$3/g"
+REPLACE_TARGET="1,\$s/{{Target}}/$1/g"
+REPLACE_TARGET_NAME="1,\$s/{{APPName}}/$2/g"
+REPLACE_TARGET_VERSION="1,\$s/{{APPVersion}}/$3/g"
 
 # 復原 .plist 的參數
-RESET_TARGET="1,\$s/$1/Target/g"
-RESET_TARGET_NAME="1,\$s/$2/APPName/g"
-RESET_TARGET_VERSION="1,\$s/$3/APPVersion/g"
+RESET_TARGET="1,\$s/$1/{{Target}}/g"
+RESET_TARGET_NAME="1,\$s/$2/{{APPName}}/g"
+RESET_TARGET_VERSION="1,\$s/$3/{{APPVersion}}/g"
 # |------------------------------ 參數 ------------------------------|
 
 

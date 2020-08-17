@@ -11,31 +11,31 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://app.wynn660.net/app/Target/Target.ipa</string>
+					<string>https://app.wynn660.net/app/{{Target}}/{{Target}}.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>https://app.wynn660.net/app/Target/Target_60.png</string>
+					<string>https://app.wynn660.net/app/{{Target}}/{{Target}}_60.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>https://app.wynn660.net/app/Target/Target_512.png</string>
+					<string>https://app.wynn660.net/app/{{Target}}/{{Target}}_512.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.Target.app</string>
+				<string>com.{{Target}}.app</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>APPName</string>
+				<string>{{APPName}}</string>
 				<key>bundle-version</key>
-				<string>APPVersion</string>
+				<string>{{APPVersion}}</string>
 			</dict>
 		</dict>
 	</array>
