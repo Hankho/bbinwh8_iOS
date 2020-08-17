@@ -1,0 +1,6 @@
+framework module Pods_shared_jinlong168vn {
+  umbrella header "Pods-shared-jinlong168vn-umbrella.h"
+
+  export *
+  module * { export * }
+}

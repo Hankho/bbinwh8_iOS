@@ -76,4 +76,7 @@ abstract_target 'shared' do
   target 'yh7669' do
   end
 
+  target 'jinlong168vn' do
+  end
+
 end

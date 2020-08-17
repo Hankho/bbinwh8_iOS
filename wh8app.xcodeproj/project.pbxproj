@@ -179,6 +179,7 @@
 		2C1282769EB98FB0DD60652B /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		2D9453393F0ACAF505AAA643 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		37F6BAE1E2D3F5AD0063B94C /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		391834253847BF8E7EADB21E /* Pods_shared_jinlong168vn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D642ED1BEC2B7E25FB85AD33 /* Pods_shared_jinlong168vn.framework */; };
 		4125F49A5AD0D7973047C5A6 /* Pods_shared_hb668vn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F90931A5831405A648AB0687 /* Pods_shared_hb668vn.framework */; };
 		454014276B8785E426BED592 /* Pods_shared_jb3579.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A7E368148A313A9CCBB8CD /* Pods_shared_jb3579.framework */; };
 		5210A9CF6E393B6F4F09BE88 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
@@ -433,6 +434,34 @@
 		5A8137DF24AB1810000313D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD626C0622DC4B060024510D /* Main.storyboard */; };
 		5A8137E724AB1975000313D6 /* info-bbinwh8inr.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A8137E624AB1975000313D6 /* info-bbinwh8inr.plist */; };
 		5A8137E924AB19D9000313D6 /* bbinwh8inr.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A8137E824AB19D9000313D6 /* bbinwh8inr.storyboard */; };
+		5A8994BF24EA7E5800F2F238 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCB259C22E07CA700AB6C30 /* String+Extension.swift */; };
+		5A8994C024EA7E5800F2F238 /* UserTicketResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466D522DED3590080106D /* UserTicketResponse.swift */; };
+		5A8994C124EA7E5800F2F238 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD272D3D22EAF40400F806EF /* UIView+Extension.swift */; };
+		5A8994C224EA7E5800F2F238 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB546652305123C000B837B /* CustomView.swift */; };
+		5A8994C324EA7E5800F2F238 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466CE22DDD3E40080106D /* AppViewModel.swift */; };
+		5A8994C424EA7E5800F2F238 /* SessionStatusResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466D322DED3180080106D /* SessionStatusResponse.swift */; };
+		5A8994C524EA7E5800F2F238 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD626C0022DC4B060024510D /* AppDelegate.swift */; };
+		5A8994C624EA7E5800F2F238 /* SharedWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD626C0222DC4B060024510D /* SharedWebViewController.swift */; };
+		5A8994C724EA7E5800F2F238 /* Dictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9E69E022F8073300F8C001 /* Dictionary+Extension.swift */; };
+		5A8994C824EA7E5800F2F238 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD626C0422DC4B060024510D /* SettingsViewController.swift */; };
+		5A8994C924EA7E5800F2F238 /* SiteInfoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466C622DC82250080106D /* SiteInfoResponse.swift */; };
+		5A8994CA24EA7E5800F2F238 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD626C1422DC515A0024510D /* MainViewController.swift */; };
+		5A8994CB24EA7E5800F2F238 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466B422DC65AC0080106D /* BaseViewController.swift */; };
+		5A8994CC24EA7E5800F2F238 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466BA22DC68870080106D /* APIManager.swift */; };
+		5A8994CD24EA7E5800F2F238 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD25DE3722F947E3009993A0 /* APIError.swift */; };
+		5A8994CE24EA7E5800F2F238 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466BE22DC6AEA0080106D /* APIService.swift */; };
+		5A8994CF24EA7E5800F2F238 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466BC22DC69060080106D /* Constants.swift */; };
+		5A8994D024EA7E5800F2F238 /* BaseVeiwModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466D122DED00F0080106D /* BaseVeiwModel.swift */; };
+		5A8994D124EA7E5800F2F238 /* AppRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466C322DC81420080106D /* AppRepository.swift */; };
+		5A8994D224EA7E5800F2F238 /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9E69E422F8079D00F8C001 /* Data+Extension.swift */; };
+		5A8994D324EA7E5800F2F238 /* AppUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9E69DE22F7EC4C00F8C001 /* AppUtil.swift */; };
+		5A8994D524EA7E5800F2F238 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF466CC22DDC5A40080106D /* WebKit.framework */; };
+		5A8994E424EA7E5800F2F238 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD626C0B22DC4B080024510D /* LaunchScreen.storyboard */; };
+		5A8994E524EA7E5800F2F238 /* bbinwh8.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AC76C54241F238000C69B85 /* bbinwh8.storyboard */; };
+		5A8994E624EA7E5800F2F238 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18BF344823471BA000564EBF /* Localizable.strings */; };
+		5A8994E724EA7E5800F2F238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD626C0922DC4B080024510D /* Assets.xcassets */; };
+		5A8994E824EA7E5800F2F238 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD626C0622DC4B060024510D /* Main.storyboard */; };
+		5A8994F024EA7FA700F2F238 /* info-jinlong168vn.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A8994EF24EA7FA700F2F238 /* info-jinlong168vn.plist */; };
 		5A8E8391242DEE0100A637C6 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCB259C22E07CA700AB6C30 /* String+Extension.swift */; };
 		5A8E8392242DEE0100A637C6 /* UserTicketResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF466D522DED3590080106D /* UserTicketResponse.swift */; };
 		5A8E8393242DEE0100A637C6 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD272D3D22EAF40400F806EF /* UIView+Extension.swift */; };
@@ -498,6 +527,7 @@
 		5AEBE3DD23D02EDD00D4BCFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD626C0922DC4B080024510D /* Assets.xcassets */; };
 		5AEBE3DE23D02EDD00D4BCFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD626C0622DC4B060024510D /* Main.storyboard */; };
 		5AEBE3E623D02F9F00D4BCFE /* info-cckf2020.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5AEBE3E523D02F9F00D4BCFE /* info-cckf2020.plist */; };
+		5AF23FE724EA80DC00AA7B01 /* jinlong168vn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF23FE624EA80DC00AA7B01 /* jinlong168vn.storyboard */; };
 		5C101908B343C87CD87395B4 /* Pods_shared_suncity66.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 851439801B79C1423C5683F5 /* Pods_shared_suncity66.framework */; };
 		5C8107E9997FDF7FC81F58C8 /* Pods_shared_yh7669.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A32FEC71F6CB9D635E945B /* Pods_shared_yh7669.framework */; };
 		615EAD8EB84C1904A7CCD1ED /* Pods_shared_bfyl55888.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 284B8A0A4630109D99CF330A /* Pods_shared_bfyl55888.framework */; };
@@ -505,7 +535,7 @@
 		774DEF91DCCD3D5FBE68328E /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		79617972669424ECD1CF1B31 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		7C5F383E7FC15F04C3E93268 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
-		80B9A51C3C6706FEA58F7203 /* Pods_shared_bbinwh8.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3F3A5036AC8FA1C80DE275C /* Pods_shared_bbinwh8.framework */; };
+		80B9A51C3C6706FEA58F7203 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		920EC9A11F7202F92621D11E /* Pods_shared_cckf2020.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 961E39DA48EBD571B80E50E1 /* Pods_shared_cckf2020.framework */; };
 		92B027389D30D21E3C926AB4 /* Pods_shared_rbet999.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD42BCE9D70060535464237 /* Pods_shared_rbet999.framework */; };
 		9FA94C7446A78E672C5F2FE2 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
@@ -639,7 +669,7 @@
 		187C9D13233B33DD00030CED /* rbet999.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rbet999.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18907BEF238E1F0400797DD2 /* 金沙会.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "金沙会.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18907BF1238E20A500797DD2 /* info-x9977.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-x9977.plist"; sourceTree = "<group>"; };
-		18907C6A2397813B00797DD2 /* 稳盈..app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "稳盈..app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18907C6A2397813B00797DD2 /* 稳盈娱乐城.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "稳盈娱乐城.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18907C6C239781A800797DD2 /* info-betwin899.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-betwin899.plist"; sourceTree = "<group>"; };
 		18A2292B23488FA600F2873E /* info-rbet999.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-rbet999.plist"; sourceTree = "<group>"; };
 		18AE48C7234DC72B004F05C5 /* rbet999web.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rbet999web.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -655,6 +685,7 @@
 		18BF344B234880B900564EBF /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
 		18BF344C234880D700564EBF /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		1C87A76EA1BD27258B8A61CC /* Pods-shared-x9977.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-x9977.release.xcconfig"; path = "Target Support Files/Pods-shared-x9977/Pods-shared-x9977.release.xcconfig"; sourceTree = "<group>"; };
+		1D3B5EE02367849915FE6B0E /* Pods-shared-jinlong168vn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-jinlong168vn.release.xcconfig"; path = "Target Support Files/Pods-shared-jinlong168vn/Pods-shared-jinlong168vn.release.xcconfig"; sourceTree = "<group>"; };
 		1FB09361F003CECAB2E37E6D /* Pods-shared-cckf2020.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-cckf2020.release.xcconfig"; path = "Target Support Files/Pods-shared-cckf2020/Pods-shared-cckf2020.release.xcconfig"; sourceTree = "<group>"; };
 		1FC9E1D7522E94E4C4099B3B /* Pods-shared-jb3579.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-jb3579.release.xcconfig"; path = "Target Support Files/Pods-shared-jb3579/Pods-shared-jb3579.release.xcconfig"; sourceTree = "<group>"; };
 		239CBDB8E6927312ABFDB929 /* Pods-shared-hb668vn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-hb668vn.debug.xcconfig"; path = "Target Support Files/Pods-shared-hb668vn/Pods-shared-hb668vn.debug.xcconfig"; sourceTree = "<group>"; };
@@ -697,6 +728,8 @@
 		5A8137E624AB1975000313D6 /* info-bbinwh8inr.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-bbinwh8inr.plist"; sourceTree = "<group>"; };
 		5A8137E824AB19D9000313D6 /* bbinwh8inr.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = bbinwh8inr.storyboard; sourceTree = "<group>"; };
 		5A866943484AC5DB45A17EF3 /* Pods_shared_base.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shared_base.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A8994ED24EA7E5800F2F238 /* Kim Long.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kim Long.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A8994EF24EA7FA700F2F238 /* info-jinlong168vn.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-jinlong168vn.plist"; sourceTree = "<group>"; };
 		5A8E83B9242DEE0100A637C6 /* HB68.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HB68.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A8E83BB242DEE5300A637C6 /* info-hb668vn.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-hb668vn.plist"; sourceTree = "<group>"; };
 		5A8E83BD242DEF3800A637C6 /* hb668vn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = hb668vn.storyboard; sourceTree = "<group>"; };
@@ -710,6 +743,7 @@
 		5AC76C62241F301200C69B85 /* x9977.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = x9977.storyboard; sourceTree = "<group>"; };
 		5AEBE3E323D02EDD00D4BCFE /* CCK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AEBE3E523D02F9F00D4BCFE /* info-cckf2020.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-cckf2020.plist"; sourceTree = "<group>"; };
+		5AF23FE624EA80DC00AA7B01 /* jinlong168vn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = jinlong168vn.storyboard; sourceTree = "<group>"; };
 		5C5A8FF83C30DF1515BD8AAE /* Pods-shared-dafa211.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-dafa211.release.xcconfig"; path = "Target Support Files/Pods-shared-dafa211/Pods-shared-dafa211.release.xcconfig"; sourceTree = "<group>"; };
 		63A32FEC71F6CB9D635E945B /* Pods_shared_yh7669.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shared_yh7669.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65943271DB8168FF07DE0E12 /* Pods-shared-x9977.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-x9977.debug.xcconfig"; path = "Target Support Files/Pods-shared-x9977/Pods-shared-x9977.debug.xcconfig"; sourceTree = "<group>"; };
@@ -771,11 +805,12 @@
 		CC256600A60CAC837CF2D4D9 /* Pods_shared_coolbet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shared_coolbet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D10B9A3B49D2C7A5440E14FD /* Pods-shared-giauco39.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-giauco39.debug.xcconfig"; path = "Target Support Files/Pods-shared-giauco39/Pods-shared-giauco39.debug.xcconfig"; sourceTree = "<group>"; };
 		D38903A51531E7ECC76ACEA0 /* Pods-shared-rbet999web.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-rbet999web.debug.xcconfig"; path = "Target Support Files/Pods-shared-rbet999web/Pods-shared-rbet999web.debug.xcconfig"; sourceTree = "<group>"; };
+		D642ED1BEC2B7E25FB85AD33 /* Pods_shared_jinlong168vn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shared_jinlong168vn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E283406C0A5B35AE0219AE6D /* Pods-shared-jinlong168vn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-jinlong168vn.debug.xcconfig"; path = "Target Support Files/Pods-shared-jinlong168vn/Pods-shared-jinlong168vn.debug.xcconfig"; sourceTree = "<group>"; };
 		E43AD292369E7614BD1E3F64 /* Pods_shared_cash888.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shared_cash888.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4917E6987CDEAA3ED62608A /* Pods-shared-tldc59vn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-tldc59vn.release.xcconfig"; path = "Target Support Files/Pods-shared-tldc59vn/Pods-shared-tldc59vn.release.xcconfig"; sourceTree = "<group>"; };
 		E630E9DCCC561A6C6BE4F089 /* Pods-shared-base.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-base.release.xcconfig"; path = "Target Support Files/Pods-shared-base/Pods-shared-base.release.xcconfig"; sourceTree = "<group>"; };
 		F18A6BB96A6AC11BCD4D29BA /* Pods_shared_amgwhlee888.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shared_amgwhlee888.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3F3A5036AC8FA1C80DE275C /* Pods_shared_bbinwh8.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shared_bbinwh8.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8380666248F438D001D1EA6 /* 太阳.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "太阳.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8380668248F43DF001D1EA6 /* suncity66.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = suncity66.storyboard; sourceTree = "<group>"; };
 		F838066C248F4819001D1EA6 /* info-suncity66.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-suncity66.plist"; sourceTree = "<group>"; };
@@ -932,6 +967,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5A8994D424EA7E5800F2F238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A8994D524EA7E5800F2F238 /* WebKit.framework in Frameworks */,
+				391834253847BF8E7EADB21E /* Pods_shared_jinlong168vn.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5A8E83A6242DEE0100A637C6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -967,7 +1011,7 @@
 				A8304A05B3A9268B2A367214 /* (null) in Frameworks */,
 				1730BBFD75B09A2B7D5C2F6F /* (null) in Frameworks */,
 				774DEF91DCCD3D5FBE68328E /* (null) in Frameworks */,
-				80B9A51C3C6706FEA58F7203 /* Pods_shared_bbinwh8.framework in Frameworks */,
+				80B9A51C3C6706FEA58F7203 /* (null) in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1024,6 +1068,7 @@
 				5A0D3E8C24C6B87C00CABD58 /* bfyl55888.storyboard */,
 				5A4F29DE24D3C66B00724E69 /* amgwhlee888.storyboard */,
 				5A4F2A1324D3EEC300724E69 /* yh7669.storyboard */,
+				5AF23FE624EA80DC00AA7B01 /* jinlong168vn.storyboard */,
 			);
 			path = LaunchScreenSet;
 			sourceTree = "<group>";
@@ -1065,7 +1110,7 @@
 				18AE49182366C523004F05C5 /* 7乐.app */,
 				18053B2E237549C100BC689F /* jb3579.app */,
 				18907BEF238E1F0400797DD2 /* 金沙会.app */,
-				18907C6A2397813B00797DD2 /* 稳盈..app */,
+				18907C6A2397813B00797DD2 /* 稳盈娱乐城.app */,
 				5AEBE3E323D02EDD00D4BCFE /* CCK.app */,
 				F8C89CAA23EAB655007A9DFD /* 凯斯.app */,
 				5A2CB47A241238260054399D /* GC39.app */,
@@ -1078,6 +1123,7 @@
 				5A3AEE9124C19D3500559EBB /* Thien Long.app */,
 				5A0D3E8824C6B71500CABD58 /* 百富娱乐.app */,
 				5A4F29DA24D3C44800724E69 /* AMG娱乐.app */,
+				5A8994ED24EA7E5800F2F238 /* Kim Long.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1116,6 +1162,7 @@
 				5A3AEE9324C19DCB00559EBB /* info-tldc59vn.plist */,
 				5A0D3E8A24C6B77100CABD58 /* info-bfyl55888.plist */,
 				5A4F29DC24D3C59200724E69 /* info-amgwhlee888.plist */,
+				5A8994EF24EA7FA700F2F238 /* info-jinlong168vn.plist */,
 				18BF344823471BA000564EBF /* Localizable.strings */,
 			);
 			path = wh8app;
@@ -1239,6 +1286,8 @@
 				4F75876C8B7DBA7879979B0C /* Pods-shared-amgwhlee888.release.xcconfig */,
 				8B64FF1A7BD0FEEA45A1BC88 /* Pods-shared-yh7669.debug.xcconfig */,
 				3D3206DF73A08397C9C95810 /* Pods-shared-yh7669.release.xcconfig */,
+				E283406C0A5B35AE0219AE6D /* Pods-shared-jinlong168vn.debug.xcconfig */,
+				1D3B5EE02367849915FE6B0E /* Pods-shared-jinlong168vn.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -1268,8 +1317,8 @@
 				C09DD9BD27209468247A22B7 /* Pods_shared_tldc59vn.framework */,
 				284B8A0A4630109D99CF330A /* Pods_shared_bfyl55888.framework */,
 				F18A6BB96A6AC11BCD4D29BA /* Pods_shared_amgwhlee888.framework */,
-				F3F3A5036AC8FA1C80DE275C /* Pods_shared_bbinwh8.framework */,
 				63A32FEC71F6CB9D635E945B /* Pods_shared_yh7669.framework */,
+				D642ED1BEC2B7E25FB85AD33 /* Pods_shared_jinlong168vn.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1350,7 +1399,7 @@
 			);
 			name = betwin899;
 			productName = "tetrapods-ios";
-			productReference = 18907C6A2397813B00797DD2 /* 稳盈..app */;
+			productReference = 18907C6A2397813B00797DD2 /* 稳盈娱乐城.app */;
 			productType = "com.apple.product-type.application";
 		};
 		18AE48A2234DC72B004F05C5 /* rbet999web */ = {
@@ -1541,6 +1590,25 @@
 			productReference = 5A8137E424AB1810000313D6 /* BETWIN.app */;
 			productType = "com.apple.product-type.application";
 		};
+		5A8994BC24EA7E5800F2F238 /* jinlong168vn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A8994EA24EA7E5800F2F238 /* Build configuration list for PBXNativeTarget "jinlong168vn" */;
+			buildPhases = (
+				5A8994BD24EA7E5800F2F238 /* [CP] Check Pods Manifest.lock */,
+				5A8994BE24EA7E5800F2F238 /* Sources */,
+				5A8994D424EA7E5800F2F238 /* Frameworks */,
+				5A8994E324EA7E5800F2F238 /* Resources */,
+				5A8994E924EA7E5800F2F238 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jinlong168vn;
+			productName = "tetrapods-ios";
+			productReference = 5A8994ED24EA7E5800F2F238 /* Kim Long.app */;
+			productType = "com.apple.product-type.application";
+		};
 		5A8E838E242DEE0100A637C6 /* hb668vn */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A8E83B6242DEE0100A637C6 /* Build configuration list for PBXNativeTarget "hb668vn" */;
@@ -1705,6 +1773,7 @@
 				5A3AEE6224C19D3400559EBB /* tldc59vn */,
 				5A0D3E5924C6B71500CABD58 /* bfyl55888 */,
 				5A4F29AA24D3C44800724E69 /* amgwhlee888 */,
+				5A8994BC24EA7E5800F2F238 /* jinlong168vn */,
 			);
 		};
 /* End PBXProject section */
@@ -1893,6 +1962,20 @@
 				5A8137DD24AB1810000313D6 /* Localizable.strings in Resources */,
 				5A8137DE24AB1810000313D6 /* Assets.xcassets in Resources */,
 				5A8137DF24AB1810000313D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A8994E324EA7E5800F2F238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A8994F024EA7FA700F2F238 /* info-jinlong168vn.plist in Resources */,
+				5A8994E424EA7E5800F2F238 /* LaunchScreen.storyboard in Resources */,
+				5A8994E524EA7E5800F2F238 /* bbinwh8.storyboard in Resources */,
+				5AF23FE724EA80DC00AA7B01 /* jinlong168vn.storyboard in Resources */,
+				5A8994E624EA7E5800F2F238 /* Localizable.strings in Resources */,
+				5A8994E724EA7E5800F2F238 /* Assets.xcassets in Resources */,
+				5A8994E824EA7E5800F2F238 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2360,6 +2443,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-shared-bbinwh8inr/Pods-shared-bbinwh8inr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A8994BD24EA7E5800F2F238 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-shared-jinlong168vn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A8994E924EA7E5800F2F238 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-shared-jinlong168vn/Pods-shared-jinlong168vn-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-shared-jinlong168vn/Pods-shared-jinlong168vn-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-shared-jinlong168vn/Pods-shared-jinlong168vn-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5A8E838F242DEE0100A637C6 /* [CP] Check Pods Manifest.lock */ = {
@@ -3114,6 +3236,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5A8994BE24EA7E5800F2F238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A8994BF24EA7E5800F2F238 /* String+Extension.swift in Sources */,
+				5A8994C024EA7E5800F2F238 /* UserTicketResponse.swift in Sources */,
+				5A8994C124EA7E5800F2F238 /* UIView+Extension.swift in Sources */,
+				5A8994C224EA7E5800F2F238 /* CustomView.swift in Sources */,
+				5A8994C324EA7E5800F2F238 /* AppViewModel.swift in Sources */,
+				5A8994C424EA7E5800F2F238 /* SessionStatusResponse.swift in Sources */,
+				5A8994C524EA7E5800F2F238 /* AppDelegate.swift in Sources */,
+				5A8994C624EA7E5800F2F238 /* SharedWebViewController.swift in Sources */,
+				5A8994C724EA7E5800F2F238 /* Dictionary+Extension.swift in Sources */,
+				5A8994C824EA7E5800F2F238 /* SettingsViewController.swift in Sources */,
+				5A8994C924EA7E5800F2F238 /* SiteInfoResponse.swift in Sources */,
+				5A8994CA24EA7E5800F2F238 /* MainViewController.swift in Sources */,
+				5A8994CB24EA7E5800F2F238 /* BaseViewController.swift in Sources */,
+				5A8994CC24EA7E5800F2F238 /* APIManager.swift in Sources */,
+				5A8994CD24EA7E5800F2F238 /* APIError.swift in Sources */,
+				5A8994CE24EA7E5800F2F238 /* APIService.swift in Sources */,
+				5A8994CF24EA7E5800F2F238 /* Constants.swift in Sources */,
+				5A8994D024EA7E5800F2F238 /* BaseVeiwModel.swift in Sources */,
+				5A8994D124EA7E5800F2F238 /* AppRepository.swift in Sources */,
+				5A8994D224EA7E5800F2F238 /* Data+Extension.swift in Sources */,
+				5A8994D324EA7E5800F2F238 /* AppUtil.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5A8E8390242DEE0100A637C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3455,7 +3605,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6A88FB859475726156F87F89 /* Pods-shared-betwin899.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = betwin899;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CV66AP2S44;
 				INFOPLIST_FILE = "$(SRCROOT)/wh8app/info-betwin899.plist";
@@ -3466,8 +3616,8 @@
 				);
 				MARKETING_VERSION = 0.8;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PROD";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iosbetwin899.app;
-				PRODUCT_NAME = "稳盈.";
+				PRODUCT_BUNDLE_IDENTIFIER = com.betwin899.app;
+				PRODUCT_NAME = "稳盈娱乐城";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -3477,7 +3627,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 55BEE5090FAECFA5830B0DDC /* Pods-shared-betwin899.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = betwin899;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CV66AP2S44;
 				INFOPLIST_FILE = "$(SRCROOT)/wh8app/info-betwin899.plist";
@@ -3488,8 +3638,8 @@
 				);
 				MARKETING_VERSION = 0.8;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PROD";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iosbetwin899.app;
-				PRODUCT_NAME = "稳盈.";
+				PRODUCT_BUNDLE_IDENTIFIER = com.betwin899.app;
+				PRODUCT_NAME = "稳盈娱乐城";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -3928,6 +4078,50 @@
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PROD";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bbinwh8inr.app;
 				PRODUCT_NAME = BETWIN;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A8994EB24EA7E5800F2F238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E283406C0A5B35AE0219AE6D /* Pods-shared-jinlong168vn.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = jinlong168vn;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CV66AP2S44;
+				INFOPLIST_FILE = "$(SRCROOT)/wh8app/info-jinlong168vn.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.8;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PROD";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinlong168vn.app;
+				PRODUCT_NAME = "Kim Long";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A8994EC24EA7E5800F2F238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D3B5EE02367849915FE6B0E /* Pods-shared-jinlong168vn.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = jinlong168vn;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CV66AP2S44;
+				INFOPLIST_FILE = "$(SRCROOT)/wh8app/info-jinlong168vn.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.8;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D PROD";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinlong168vn.app;
+				PRODUCT_NAME = "Kim Long";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -4446,6 +4640,15 @@
 			buildConfigurations = (
 				5A8137E224AB1810000313D6 /* Debug */,
 				5A8137E324AB1810000313D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A8994EA24EA7E5800F2F238 /* Build configuration list for PBXNativeTarget "jinlong168vn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A8994EB24EA7E5800F2F238 /* Debug */,
+				5A8994EC24EA7E5800F2F238 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
