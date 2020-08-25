@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5A8994BC24EA7E5800F2F238"
-               BuildableName = "Kim Long.app"
-               BlueprintName = "jinlong168vn"
+               BlueprintIdentifier = "5A4F29AA24D3C44800724E69"
+               BuildableName = "AMG&#x5a31;&#x4e50;.app"
+               BlueprintName = "amgwhlee888"
                ReferencedContainer = "container:wh8app.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -44,9 +44,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5A8994BC24EA7E5800F2F238"
-            BuildableName = "Kim Long.app"
-            BlueprintName = "jinlong168vn"
+            BlueprintIdentifier = "5A4F29AA24D3C44800724E69"
+            BuildableName = "AMG&#x5a31;&#x4e50;.app"
+            BlueprintName = "amgwhlee888"
             ReferencedContainer = "container:wh8app.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -61,9 +61,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5A8994BC24EA7E5800F2F238"
-            BuildableName = "Kim Long.app"
-            BlueprintName = "jinlong168vn"
+            BlueprintIdentifier = "5A4F29AA24D3C44800724E69"
+            BuildableName = "AMG&#x5a31;&#x4e50;.app"
+            BlueprintName = "amgwhlee888"
             ReferencedContainer = "container:wh8app.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
