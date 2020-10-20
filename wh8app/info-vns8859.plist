@@ -32,7 +32,7 @@
 	<key>NSFaceIDUsageDescription</key>
 	<string>需要Face ID权限以使用脸部解锁功能</string>
 	<key>UILaunchStoryboardName</key>
-	<string>jinlong168vn</string>
+	<string>vns8859</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>

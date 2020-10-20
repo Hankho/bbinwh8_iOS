@@ -79,4 +79,15 @@ abstract_target 'shared' do
   target 'jinlong168vn' do
   end
 
+  target 'hngj777' do
+  end
+  
+  target 'vns8859' do
+  end
+  
+  target 'ibttr988' do
+  end
+  
+  target 'dsgame568' do
+  end
 end

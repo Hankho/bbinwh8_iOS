@@ -1,0 +1,6 @@
+framework module Pods_shared_hngj777 {
+  umbrella header "Pods-shared-hngj777-umbrella.h"
+
+  export *
+  module * { export * }
+}

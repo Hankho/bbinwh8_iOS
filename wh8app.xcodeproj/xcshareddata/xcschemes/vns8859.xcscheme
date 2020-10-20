@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1130"
+   LastUpgradeVersion = "1150"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5A4F29AA24D3C44800724E69"
-               BuildableName = "amg .app"
-               BlueprintName = "amgwhlee888"
+               BlueprintIdentifier = "F84D436D24F8C89B00D05CE0"
+               BuildableName = "&#x6fb3;&#x95e8;&#x5a01;&#x5c3c;&#x65af;&#x4eba;.app"
+               BlueprintName = "vns8859"
                ReferencedContainer = "container:wh8app.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -44,9 +44,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5A4F29AA24D3C44800724E69"
-            BuildableName = "amg .app"
-            BlueprintName = "amgwhlee888"
+            BlueprintIdentifier = "F84D436D24F8C89B00D05CE0"
+            BuildableName = "&#x6fb3;&#x95e8;&#x5a01;&#x5c3c;&#x65af;&#x4eba;.app"
+            BlueprintName = "vns8859"
             ReferencedContainer = "container:wh8app.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -61,9 +61,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5A4F29AA24D3C44800724E69"
-            BuildableName = "amg .app"
-            BlueprintName = "amgwhlee888"
+            BlueprintIdentifier = "F84D436D24F8C89B00D05CE0"
+            BuildableName = "&#x6fb3;&#x95e8;&#x5a01;&#x5c3c;&#x65af;&#x4eba;.app"
+            BlueprintName = "vns8859"
             ReferencedContainer = "container:wh8app.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
