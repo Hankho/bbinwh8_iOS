@@ -81,9 +81,11 @@ class SharedWebViewController: BaseViewController {
         // Ignore safe area inset for the webView
         wkWebView.scrollView.contentInsetAdjustmentBehavior = .never
         
+        // 之前因為有些遊戲有問題所以加了這段code，但是iOS14會壞掉，所以先拿掉
+        // REMOVE the following code since it's making the WKWebView not function properly on iOS 14
         // https://stackoverflow.com/questions/47309048/enable-cross-site-tracking-in-wkwebview
         // A private function to fix the issue that third party cookie gets blocked by WKWebView
-        wkWebView.configuration.processPool.perform(Selector(("_setCookieAcceptPolicy:")), with: HTTPCookie.AcceptPolicy.always)
+        //wkWebView.configuration.processPool.perform(Selector(("_setCookieAcceptPolicy:")), with: HTTPCookie.AcceptPolicy.always)
         
         // Set WKWebView delegate
         wkWebView.uiDelegate = self
