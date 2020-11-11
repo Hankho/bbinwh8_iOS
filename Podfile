@@ -46,21 +46,9 @@ abstract_target 'shared' do
   target 'cash888' do
   end
 
-  target 'giauco39' do
-  end
-
   target 'hb668vn' do
   end
-
-  target 'mgm668' do
-  end
-
-  target 'yhy888' do
-  end
-
-  target 'suncity66' do
-  end
-
+  
   target 'bbinwh8inr' do
   end
 
@@ -72,17 +60,11 @@ abstract_target 'shared' do
   
   target 'amgwhlee888' do
   end
-  
-  target 'yh7669' do
-  end
 
   target 'jinlong168vn' do
   end
 
   target 'hngj777' do
-  end
-  
-  target 'vns8859' do
   end
   
   target 'ibttr988' do
