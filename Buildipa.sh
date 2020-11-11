@@ -50,9 +50,9 @@ xcodebuild -exportArchive -archivePath $PWD/build/$1.xcarchive -exportOptionsPli
 
 echo "================ Reset Environment ================="
 
-mv $PWD/build/$1.ipa $PWD/$1_$3.ipa
+#mv $PWD/build/$1.ipa $PWD/$1_$3.ipa
 # 清除打包過程中產生的build資料夾
-rm -rf build  
+#rm -rf build  
 # 重置 manifest.plist 
 vim -c "${RESET_TARGET}" -c ":wq" $PWD/manifest.plist
 vim -c "${RESET_TARGET_NAME}" -c ":wq" $PWD/manifest.plist

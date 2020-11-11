@@ -90,4 +90,28 @@ abstract_target 'shared' do
   
   target 'dsgame568' do
   end
+  
+  target 'mekong68vn' do
+  end
+  
+  target 'bfr88u' do
+  end
+  
+  target 'xgame66' do
+  end
+  
+  target 'aaround77' do
+  end
+  
+  target 'scylc998' do
+  end
+  
+  target 's7club528' do
+  end
+  
+  target 'bt777ir' do
+  end
+  
+  target 'betwininr' do
+  end
 end

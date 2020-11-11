@@ -1,0 +1,6 @@
+framework module Pods_shared_xgame66 {
+  umbrella header "Pods-shared-xgame66-umbrella.h"
+
+  export *
+  module * { export * }
+}

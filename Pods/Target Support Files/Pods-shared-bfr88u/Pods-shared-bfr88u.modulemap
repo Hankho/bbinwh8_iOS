@@ -1,0 +1,6 @@
+framework module Pods_shared_bfr88u {
+  umbrella header "Pods-shared-bfr88u-umbrella.h"
+
+  export *
+  module * { export * }
+}

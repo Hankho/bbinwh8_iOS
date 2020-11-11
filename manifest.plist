@@ -33,7 +33,7 @@
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>{{APPName}}</string>
+				<string>{{Target}}</string>
 				<key>bundle-version</key>
 				<string>{{APPVersion}}</string>
 			</dict>

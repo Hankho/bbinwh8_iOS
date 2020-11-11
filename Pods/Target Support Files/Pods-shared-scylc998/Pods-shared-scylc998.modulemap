@@ -1,0 +1,6 @@
+framework module Pods_shared_scylc998 {
+  umbrella header "Pods-shared-scylc998-umbrella.h"
+
+  export *
+  module * { export * }
+}
