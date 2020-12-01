@@ -13,8 +13,8 @@
         <!--Main View Controller-->
         <scene sceneID="anu-Yy-Tqt">
             <objects>
-                <viewController storyboardIdentifier="Main" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hb9-T7-RAf" customClass="MainViewController" customModule="CCK" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ujh-DX-LsV" customClass="CustomView" customModule="CCK" customModuleProvider="target">
+                <viewController storyboardIdentifier="Main" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hb9-T7-RAf" customClass="MainViewController" customModule="BETWIN" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ujh-DX-LsV" customClass="CustomView" customModule="BETWIN" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -190,6 +190,8 @@
                         <outlet property="backBtn" destination="2gE-TC-hgm" id="JP3-Gb-rss"/>
                         <outlet property="botNavBarHeight" destination="heK-ZQ-MpA" id="Jsq-lg-iEu"/>
                         <outlet property="botNavBarOffset" destination="TbD-dw-t0V" id="wcs-l0-4sB"/>
+                        <outlet property="bottomBtns" destination="2i3-ul-GCi" id="DZs-MK-XAf"/>
+                        <outlet property="bottomControls" destination="q3V-ME-Pl8" id="nf6-FJ-xwP"/>
                         <outlet property="chatBtn" destination="jdQ-GD-glL" id="ZtN-A5-1HI"/>
                         <outlet property="container" destination="sEa-2s-OgC" id="Po0-Ay-ZON"/>
                         <outlet property="homeBtn" destination="Qqd-DX-eMk" id="AAs-3Y-R49"/>
@@ -210,7 +212,7 @@
         <!--Shared Web View Controller-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController storyboardIdentifier="SharedWeb" useStoryboardIdentifierAsRestorationIdentifier="YES" id="9pv-A4-QxB" customClass="SharedWebViewController" customModule="CCK" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SharedWeb" useStoryboardIdentifierAsRestorationIdentifier="YES" id="9pv-A4-QxB" customClass="SharedWebViewController" customModule="BETWIN" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -224,7 +226,7 @@
         <!--Settings View Controller-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <viewController storyboardIdentifier="Settings" useStoryboardIdentifierAsRestorationIdentifier="YES" id="8rJ-Kc-sve" customClass="SettingsViewController" customModule="CCK" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Settings" useStoryboardIdentifierAsRestorationIdentifier="YES" id="8rJ-Kc-sve" customClass="SettingsViewController" customModule="BETWIN" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

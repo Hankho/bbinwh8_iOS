@@ -21,6 +21,10 @@ class MainViewController: BaseViewController {
     @IBOutlet weak var botNavBarHeight: NSLayoutConstraint!
     @IBOutlet weak var botNavBarOffset: NSLayoutConstraint!
     
+    // Bottom controls
+    @IBOutlet weak var bottomControls: UIView!
+    @IBOutlet weak var bottomBtns: UIStackView!
+    
     // Control buttons
     @IBOutlet weak var backBtn: UIButton!
     @IBOutlet weak var refreshBtn: UIButton!
@@ -98,8 +102,45 @@ class MainViewController: BaseViewController {
         super.viewWillTransition(to: size, with: coordinator)
         
         // Hide the bottom navigation view in landscape mode
-        let bottomOffset = botNavBarHeight.constant + view.safeAreaInsets.bottom
-        botNavBarOffset.constant = UIDevice.current.orientation.isLandscape ? -bottomOffset : 0
+        // let bottomOffset = botNavBarHeight.constant + view.safeAreaInsets.bottom
+        // botNavBarOffset.constant = UIDevice.current.orientation.isLandscape ? -bottomOffset : 0
+        
+        if (UIDevice.current.orientation.isLandscape){
+            bottomControls.backgroundColor = .green
+            let LandscapeWidth = self.view.frame.width
+            let LandscapeHeight = self.view.frame.height
+            //bottomBtns.axis = .vertical
+            UIView.animate(withDuration: 0.5, animations:({
+                self.bottomControls.transform = self.bottomControls.transform
+                    .rotated(by: CGFloat(Double.pi/2))
+                    .translatedBy(x: 0-LandscapeWidth/2+self.botNavBarHeight.constant/2, y: 0-LandscapeHeight/2+self.botNavBarHeight.constant/2)
+                    .scaledBy(x: LandscapeWidth/LandscapeHeight, y: 1)
+                
+                self.backBtn.transform = self.backBtn.transform.rotated(by: CGFloat(-Double.pi/2))
+                self.refreshBtn.transform = self.refreshBtn.transform.rotated(by: CGFloat(-Double.pi/2))
+                self.homeBtn.transform = self.homeBtn.transform.rotated(by: CGFloat(-Double.pi/2))
+                self.chatBtn.transform = self.chatBtn.transform.rotated(by: CGFloat(-Double.pi/2))
+                self.settingsBtn.transform = self.settingsBtn.transform.rotated(by: CGFloat(-Double.pi/2))
+            }))
+        }
+        else{
+            bottomControls.backgroundColor = .cyan
+            let PortraitWidth = self.view.frame.width
+            let PortraitHeight = self.view.frame.height
+            //bottomBtns.axis = .horizontal
+            UIView.animate(withDuration: 0.5, animations:({
+                self.bottomControls.transform = self.bottomControls.transform
+                    .scaledBy(x: PortraitWidth/PortraitHeight, y: 1)
+                    .translatedBy(x: 0+PortraitHeight/2-self.botNavBarHeight.constant/2, y: 0+PortraitWidth/2-self.botNavBarHeight.constant/2)
+                    .rotated(by: CGFloat(-Double.pi/2))
+                
+                self.backBtn.transform = self.backBtn.transform.rotated(by: CGFloat(Double.pi/2))
+                self.refreshBtn.transform = self.refreshBtn.transform.rotated(by: CGFloat(Double.pi/2))
+                self.homeBtn.transform = self.homeBtn.transform.rotated(by: CGFloat(Double.pi/2))
+                self.chatBtn.transform = self.chatBtn.transform.rotated(by: CGFloat(Double.pi/2))
+                self.settingsBtn.transform = self.settingsBtn.transform.rotated(by: CGFloat(Double.pi/2))
+            }))
+        }
     }
     
     private func initialisation() {
