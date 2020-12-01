@@ -20,6 +20,8 @@ class MainViewController: BaseViewController {
     // Constraints
     @IBOutlet weak var botNavBarHeight: NSLayoutConstraint!
     @IBOutlet weak var botNavBarOffset: NSLayoutConstraint!
+    @IBOutlet weak var botNavBarTrailing: NSLayoutConstraint!
+    @IBOutlet weak var botNavBarTop: NSLayoutConstraint!
     
     // Bottom controls
     @IBOutlet weak var bottomControls: UIView!
@@ -102,8 +104,12 @@ class MainViewController: BaseViewController {
         super.viewWillTransition(to: size, with: coordinator)
         
         // Hide the bottom navigation view in landscape mode
-        // let bottomOffset = botNavBarHeight.constant + view.safeAreaInsets.bottom
-        // botNavBarOffset.constant = UIDevice.current.orientation.isLandscape ? -bottomOffset : 0
+        let bottomOffset = botNavBarHeight.constant + view.safeAreaInsets.bottom
+        botNavBarTop.constant = UIDevice.current.orientation.isLandscape ? bottomOffset : 0
+        
+        // Offset the bottom navigation view trailing in landscape mode
+        let bottomTailingOffset = botNavBarHeight.constant
+        botNavBarTrailing.constant = UIDevice.current.orientation.isLandscape ? bottomTailingOffset : 0
         
         if (UIDevice.current.orientation.isLandscape){
             bottomControls.backgroundColor = .green
