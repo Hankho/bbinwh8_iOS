@@ -98,6 +98,34 @@ class MainViewController: BaseViewController {
         onListenＷebLoading.accept(true)
         onListenApiCalling.accept(true)
         requestSiteInfo() // S1
+        
+        // Hide the bottom navigation view in landscape mode
+        let bottomOffset = botNavBarHeight.constant + view.safeAreaInsets.bottom
+        botNavBarTop.constant = UIApplication.shared.statusBarOrientation.isLandscape ? bottomOffset : 0
+        
+        // Offset the bottom navigation view trailing in landscape mode
+        let bottomTailingOffset = botNavBarHeight.constant
+        botNavBarTrailing.constant = UIApplication.shared.statusBarOrientation.isLandscape ? bottomTailingOffset : 0
+        
+        if (UIApplication.shared.statusBarOrientation.isLandscape){
+            bottomControls.backgroundColor = .green
+            let LandscapeWidth = self.view.frame.width
+            let LandscapeHeight = self.view.frame.height
+            //bottomBtns.axis = .vertical
+            UIView.animate(withDuration: 0.5, animations:({
+                self.bottomControls.transform = self.bottomControls.transform
+                    .rotated(by: CGFloat(Double.pi/2))
+                    .translatedBy(x: 0-LandscapeHeight/2+self.botNavBarHeight.constant/2, y: 0-LandscapeWidth/2+self.botNavBarHeight.constant/2)
+                    .scaledBy(x: LandscapeHeight/LandscapeWidth, y: 1)
+                
+                self.backBtn.transform = self.backBtn.transform.rotated(by: CGFloat(-Double.pi/2))
+                self.refreshBtn.transform = self.refreshBtn.transform.rotated(by: CGFloat(-Double.pi/2))
+                self.homeBtn.transform = self.homeBtn.transform.rotated(by: CGFloat(-Double.pi/2))
+                self.chatBtn.transform = self.chatBtn.transform.rotated(by: CGFloat(-Double.pi/2))
+                self.settingsBtn.transform = self.settingsBtn.transform.rotated(by: CGFloat(-Double.pi/2))
+            }))
+        }
+        
     }
     
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
