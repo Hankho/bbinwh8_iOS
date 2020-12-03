@@ -105,18 +105,30 @@ class MainViewController: BaseViewController {
         
         // Offset the bottom navigation view trailing in landscape mode
         let bottomTailingOffset = botNavBarHeight.constant
+
         botNavBarTrailing.constant = UIApplication.shared.statusBarOrientation.isLandscape ? bottomTailingOffset : 0
-        
+            if (isNotchScreen){
+                botNavBarTrailing.constant = UIApplication.shared.statusBarOrientation.isLandscape ? bottomTailingOffset/2+12 : 0}
+            else{
+                botNavBarTrailing.constant = UIApplication.shared.statusBarOrientation.isLandscape ? bottomTailingOffset : 0
+            }
+            
         if (UIApplication.shared.statusBarOrientation.isLandscape){
             bottomControls.backgroundColor = .green
             let LandscapeWidth = self.view.frame.width
             let LandscapeHeight = self.view.frame.height
+            // bottomControls y-axis offset scale
+            var offsetY = botNavBarHeight.constant/2
+            if (isNotchScreen){
+                offsetY = offsetY*2
+            }
+            
             //bottomBtns.axis = .vertical
             UIView.animate(withDuration: 0.5, animations:({
                 self.bottomControls.transform = self.bottomControls.transform
                     .rotated(by: CGFloat(Double.pi/2))
-                    .translatedBy(x: 0-LandscapeHeight/2+self.botNavBarHeight.constant/2, y: 0-LandscapeWidth/2+self.botNavBarHeight.constant/2)
-                    .scaledBy(x: LandscapeHeight/LandscapeWidth, y: 1)
+                    .translatedBy(x: 0-LandscapeHeight/2+self.botNavBarHeight.constant/2, y: 0-LandscapeWidth/2+offsetY)
+                    .scaledBy(x: (LandscapeHeight)/LandscapeWidth, y: 1)
                 
                 self.backBtn.transform = self.backBtn.transform.rotated(by: CGFloat(-Double.pi/2))
                 self.refreshBtn.transform = self.refreshBtn.transform.rotated(by: CGFloat(-Double.pi/2))
@@ -126,6 +138,23 @@ class MainViewController: BaseViewController {
             }))
         }
         
+    }
+    
+    var isNotchScreen: Bool {
+        
+        if UIDevice.current.userInterfaceIdiom == .pad {
+            return false
+        }
+        
+        let size = UIScreen.main.bounds.size
+        let notchValue: Int = Int(size.width/size.height * 100)
+        
+        if 216 == notchValue || 46 == notchValue {
+            
+            return true
+        }
+        
+        return false
     }
     
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
@@ -138,16 +167,25 @@ class MainViewController: BaseViewController {
         // Offset the bottom navigation view trailing in landscape mode
         let bottomTailingOffset = botNavBarHeight.constant
         botNavBarTrailing.constant = UIDevice.current.orientation.isLandscape ? bottomTailingOffset : 0
+        if (isNotchScreen){
+            botNavBarTrailing.constant = UIDevice.current.orientation.isLandscape ? bottomTailingOffset/2+12 : 0}
+        else{
+            botNavBarTrailing.constant = UIDevice.current.orientation.isLandscape ? bottomTailingOffset : 0
+        }
         
         if (UIDevice.current.orientation.isLandscape){
             bottomControls.backgroundColor = .green
             let LandscapeWidth = self.view.frame.width
             let LandscapeHeight = self.view.frame.height
+            var offsetY = botNavBarHeight.constant/2
+            if (isNotchScreen){
+                offsetY = offsetY*2
+            }
             //bottomBtns.axis = .vertical
             UIView.animate(withDuration: 0.5, animations:({
                 self.bottomControls.transform = self.bottomControls.transform
                     .rotated(by: CGFloat(Double.pi/2))
-                    .translatedBy(x: 0-LandscapeWidth/2+self.botNavBarHeight.constant/2, y: 0-LandscapeHeight/2+self.botNavBarHeight.constant/2)
+                    .translatedBy(x: 0-LandscapeWidth/2+self.botNavBarHeight.constant/2, y: 0-LandscapeHeight/2+offsetY)
                     .scaledBy(x: LandscapeWidth/LandscapeHeight, y: 1)
                 
                 self.backBtn.transform = self.backBtn.transform.rotated(by: CGFloat(-Double.pi/2))
@@ -161,11 +199,15 @@ class MainViewController: BaseViewController {
             bottomControls.backgroundColor = .cyan
             let PortraitWidth = self.view.frame.width
             let PortraitHeight = self.view.frame.height
+            var offsetY = botNavBarHeight.constant/2
+            if (isNotchScreen){
+                offsetY = offsetY*2
+            }
             //bottomBtns.axis = .horizontal
             UIView.animate(withDuration: 0.5, animations:({
                 self.bottomControls.transform = self.bottomControls.transform
                     .scaledBy(x: PortraitWidth/PortraitHeight, y: 1)
-                    .translatedBy(x: 0+PortraitHeight/2-self.botNavBarHeight.constant/2, y: 0+PortraitWidth/2-self.botNavBarHeight.constant/2)
+                    .translatedBy(x: 0+PortraitHeight/2-self.botNavBarHeight.constant/2, y: 0+PortraitWidth/2-offsetY)
                     .rotated(by: CGFloat(-Double.pi/2))
                 
                 self.backBtn.transform = self.backBtn.transform.rotated(by: CGFloat(Double.pi/2))
